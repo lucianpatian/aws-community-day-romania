@@ -1,0 +1,6 @@
+{
+  "todohighlight.isEnable": true,
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.keywords": ["DEBUG:", "REVIEW:", "NOTE:", "HACK:"],
+  "editor.formatOnSave": true
+}
