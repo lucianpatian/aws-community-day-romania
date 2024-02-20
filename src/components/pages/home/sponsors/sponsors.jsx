@@ -66,13 +66,13 @@ const Sponsors = () => (
     {sponsors.map(({ title, sponsors }, index) => (
       <div key={index}>
         <h2>{title}</h2>
-        <div className="flex flex-row flex-wrap w-full justify-center mb-12">
+        <div className="flex flex-row flex-wrap w-full justify-center mb-12 sm:gap-4">
           {sponsors.map(({ logo, url, background }, index) => (
             <a
               key={index}
               href={url}
               target="_blank"
-              className="w-1/4 hover:scale-105 md:w-1/2 sm:w-full px-6"
+              className="w-1/4 hover:scale-105 md:w-1/2 sm:w-5/6 px-6"
               rel="noreferrer"
             >
               <img
