@@ -60,7 +60,7 @@ const teamMembers = [
     picture: Kathi,
   },
   {
-    name: 'Thomas Schütz',
+    name: 'Thomas Schuetz',
     tagLine: 'CNCF Ambassador | Co-Chair @ TAG App-Delivery',
     picture: Thomas,
   },
