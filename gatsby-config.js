@@ -3,7 +3,6 @@
 require('dotenv').config();
 
 module.exports = {
-  pathPrefix: "/kcd-austria-website",
   flags: { DEV_SSR: process.env.GATSBY_DEV_SSR || false },
   siteMetadata: {
     siteTitle: 'Pixel Point Gatsby Tailwind Starter',
