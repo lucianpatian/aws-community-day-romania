@@ -14,8 +14,7 @@ Kirchenplatz 6, Stiege 3, Tür 2<br/>
 **ZVR-Zahl**: 1230260391<br/>
 **Austellung**: Landespolizeidirektion Wien, Referat Vereins-, Versammlungs- und Medienrechtsangelegenheiten<br/>
 **Vereinssitz**: 1230 Wien<br/>
-**Telefon**: +43 681 20855146<br/>
-**E-Mail**: ???
+**E-Mail**: thomas.schuetz@cloud-native.at
 
 **Anwendbare Rechtsvorschriften**: [ris.bka.gv.at](https://www.ris.bka.gv.at)<br/>
 **Aufsichtsbehörde**: Bezirkshauptmannschaft Wien<br/>
