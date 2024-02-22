@@ -7,9 +7,9 @@ export default {
   home: {
     to: '/',
   },
-  speakers: {
-    to: `/#${getAnchor('Speakers')}`,
-    id: `/#${getAnchor('Speakers')}`,
+  schedule: {
+    to: `/#${getAnchor('schedule')}`,
+    id: `/#${getAnchor('schedule')}`,
     homeTo: '/',
   },
   sponsors: {
