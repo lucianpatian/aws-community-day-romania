@@ -30,7 +30,7 @@ Wir haben diese Datenschutzerklärung (Fassung 19.02.2024-112728390) verfasst, u
 der [Datenschutz-Grundverordnung (EU) 2016/679](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&from=DE&tid=112728390#d1e2269-1-1)
 und anwendbaren nationalen Gesetzen zu erklären, welche personenbezogenen Daten (kurz Daten) wir als Verantwortliche –
 und die von uns beauftragten Auftragsverarbeiter (z. B. Provider) – verarbeiten, zukünftig verarbeiten werden und welche
-rechtmäßigen Möglichkeiten Sie haben. Die verwendeten Begriffe sind geschlechtsneutral zu verstehen.  
+rechtmäßigen Möglichkeiten Sie haben. Die verwendeten Begriffe sind geschlechtsneutral zu verstehen.
 **Kurz gesagt:** Wir informieren Sie umfassend über Daten, die wir über Sie verarbeiten.
 
 Datenschutzerklärungen klingen für gewöhnlich sehr technisch und verwenden juristische Fachbegriffe. Diese
@@ -41,7 +41,7 @@ einfacher Sprache, dass wir im Rahmen unserer Geschäftstätigkeiten nur dann pe
 eine entsprechende gesetzliche Grundlage gegeben ist. Das ist sicher nicht möglich, wenn man möglichst knappe, unklare
 und juristisch-technische Erklärungen abgibt, so wie sie im Internet oft Standard sind, wenn es um Datenschutz geht. Ich
 hoffe, Sie finden die folgenden Erläuterungen interessant und informativ und vielleicht ist die eine oder andere
-Information dabei, die Sie noch nicht kannten.  
+Information dabei, die Sie noch nicht kannten.
 Wenn trotzdem Fragen bleiben, möchten wir Sie bitten, sich an die unten bzw. im Impressum genannte verantwortliche
 Stelle zu wenden, den vorhandenen Links zu folgen und sich weitere Informationen auf Drittseiten anzusehen. Unsere
 Kontaktdaten finden Sie selbstverständlich auch im Impressum.
@@ -66,7 +66,7 @@ eintreten, werden wir Sie gegebenenfalls gesondert informieren.
 
 In der folgenden Datenschutzerklärung geben wir Ihnen transparente Informationen zu den rechtlichen Grundsätzen und
 Vorschriften, also den Rechtsgrundlagen der Datenschutz-Grundverordnung, die uns ermöglichen, personenbezogene Daten zu
-verarbeiten.  
+verarbeiten.
 Was das EU-Recht betrifft, beziehen wir uns auf die VERORDNUNG (EU) 2016/679 DES EUROPÄISCHEN PARLAMENTS UND DES RATES
 vom 27. April 2016. Diese Datenschutz-Grundverordnung der EU können Sie selbstverständlich online auf EUR-Lex, dem
 Zugang zum EU-Recht,
@@ -104,13 +104,13 @@ darüber.
 ### Kontaktdaten des Verantwortlichen
 
 Sollten Sie Fragen zum Datenschutz oder zur Verarbeitung personenbezogener Daten haben, finden Sie nachfolgend die
-Kontaktdaten der verantwortlichen Person bzw. Stelle:  
-Cloud Native Austria - Verein zur Förderung Cloud Nativer Technologien in  
-Österreich  
-Kirchenplatz 6, Stiege 3, Tür 2, 1230 Wien  
-Vertretungsberechtigt: Markus Mustermann  
-E-Mail: [mail@musterfirma.at](mailto:mail@musterfirma.at)  
-Telefon: [+43 4711 12345](tel:+43%204711%2012345)  
+Kontaktdaten der verantwortlichen Person bzw. Stelle:
+Cloud Native Austria - Verein zur Förderung Cloud Nativer Technologien in
+Österreich
+Kirchenplatz 6, Stiege 3, Tür 2, 1230 Wien
+Vertretungsberechtigt: Markus Mustermann
+E-Mail: [mail@musterfirma.at](mailto:mail@musterfirma.at)
+Telefon: [+43 4711 12345](tel:+43%204711%2012345)
 Impressum: [https://www.musterfirma.at/impressum/](https://www.musterfirma.at/impressum/)
 
 ### Speicherdauer
@@ -181,17 +181,17 @@ wenden. Für unser Unternehmen ist die folgende lokale Datenschutzbehörde zust�
 
 ### Österreich Datenschutzbehörde
 
-**Leiterin:** Mag. Dr. Andrea Jelinek**Adresse:** Barichgasse 40-42, 1030 Wien**Telefonnr.:** +43 1 52 152-0\*
-\*E-Mail-Adresse:** [dsb@dsb.gv.at](mailto:dsb@dsb.gv.at)**Website:\*\* [https://www.dsb.gv.at/](https://www.dsb.gv.at/)
+**Leiterin:** Mag. Dr. Andrea Jelinek<br /> **Adresse:** Barichgasse 40-42, 1030 Wien<br /> **Telefonnr.:** +43 1 52 152-0 <br />
+**E-Mail-Adresse:** [dsb@dsb.gv.at](mailto:dsb@dsb.gv.at)<br /> **Website:** [https://www.dsb.gv.at/](https://www.dsb.gv.at/)
 
 ### Kommunikation
 
-**Kommunikation Zusammenfassung**  
-👥 Betroffene: Alle, die mit uns per Telefon, E-Mail oder Online-Formular kommunizieren  
+**Kommunikation Zusammenfassung**
+👥 Betroffene: Alle, die mit uns per Telefon, E-Mail oder Online-Formular kommunizieren
 📓 Verarbeitete Daten: z. B. Telefonnummer, Name, E-Mail-Adresse, eingegebene Formulardaten. Mehr Details dazu finden Sie
-bei der jeweils eingesetzten Kontaktart  
-🤝 Zweck: Abwicklung der Kommunikation mit Kunden, Geschäftspartnern usw.  
-📅 Speicherdauer: Dauer des Geschäftsfalls und der gesetzlichen Vorschriften  
+bei der jeweils eingesetzten Kontaktart
+🤝 Zweck: Abwicklung der Kommunikation mit Kunden, Geschäftspartnern usw.
+📅 Speicherdauer: Dauer des Geschäftsfalls und der gesetzlichen Vorschriften
 ⚖️ Rechtsgrundlagen: Art. 6 Abs. 1 lit. a DSGVO (Einwilligung), Art. 6 Abs. 1 lit. b DSGVO (Vertrag), Art. 6 Abs. 1 lit.
 f DSGVO (Berechtigte Interessen)
 
@@ -240,18 +240,18 @@ Die Verarbeitung der Daten basiert auf den folgenden Rechtsgrundlagen:
 
 ### Cookies
 
-**Cookies Zusammenfassung**  
-👥 Betroffene: Besucher der Website  
+**Cookies Zusammenfassung**
+👥 Betroffene: Besucher der Website
 🤝 Zweck: abhängig vom jeweiligen Cookie. Mehr Details dazu finden Sie weiter unten bzw. beim Hersteller der Software,
-der das Cookie setzt.  
+der das Cookie setzt.
 📓 Verarbeitete Daten: Abhängig vom jeweils eingesetzten Cookie. Mehr Details dazu finden Sie weiter unten bzw. beim
-Hersteller der Software, der das Cookie setzt.  
-📅 Speicherdauer: abhängig vom jeweiligen Cookie, kann von Stunden bis hin zu Jahren variieren  
+Hersteller der Software, der das Cookie setzt.
+📅 Speicherdauer: abhängig vom jeweiligen Cookie, kann von Stunden bis hin zu Jahren variieren
 ⚖️ Rechtsgrundlagen: Art. 6 Abs. 1 lit. a DSGVO (Einwilligung), Art. 6 Abs. 1 lit.f DSGVO (Berechtigte Interessen)
 
 #### Was sind Cookies?
 
-Unsere Website verwendet HTTP-Cookies, um nutzerspezifische Daten zu speichern.  
+Unsere Website verwendet HTTP-Cookies, um nutzerspezifische Daten zu speichern.
 Im Folgenden erklären wir, was Cookies sind und warum Sie genutzt werden, damit Sie die folgende Datenschutzerklärung
 besser verstehen.
 
@@ -285,10 +285,10 @@ andere „Schädlinge“. Cookies können auch nicht auf Informationen Ihres PCs
 
 So können zum Beispiel Cookie-Daten aussehen:
 
-**Name:** \_ga  
-**Wert:**GA1.2.1326744211.152112728390-9  
-**Verwendungszweck:** Unterscheidung der Websitebesucher  
-**Ablaufdatum:**nach 2 Jahren
+**Name:** \_ga
+**Wert:** GA1.2.1326744211.152112728390-9
+**Verwendungszweck:** Unterscheidung der Websitebesucher
+**Ablaufdatum:** nach 2 Jahren
 
 Diese Mindestgrößen sollte ein Browser unterstützen können:
 
@@ -471,7 +471,7 @@ zählen:
 - die Gewerkschaftszugehörigkeit
 - genetische Daten wie beispielsweise Daten, die aus Blut- oder Speichelproben entnommen werden
 - biometrische Daten (das sind Informationen zu psychischen, körperlichen oder verhaltenstypischen Merkmalen, die eine
-  Person identifizieren können).  
+  Person identifizieren können).
   Gesundheitsdaten
 - Daten zur sexuellen Orientierung oder zum Sexualleben
 
@@ -529,13 +529,13 @@ das Speichern und Verarbeiten von Daten.
 
 Herzlichen Glückwunsch! Wenn Sie diese Zeilen lesen, haben Sie sich wirklich durch unsere gesamte Datenschutzerklärung
 „gekämpft“ oder zumindest bis hier hin gescrollt. Wie Sie am Umfang unserer Datenschutzerklärung sehen, nehmen wir den
-Schutz Ihrer persönlichen Daten, alles andere als auf die leichte Schulter.  
+Schutz Ihrer persönlichen Daten, alles andere als auf die leichte Schulter.
 Uns ist es wichtig, Sie nach bestem Wissen und Gewissen über die Verarbeitung personenbezogener Daten zu informieren.
 Dabei wollen wir Ihnen aber nicht nur mitteilen, welche Daten verarbeitet werden, sondern auch die Beweggründe für die
 Verwendung diverser Softwareprogramme näherbringen. In der Regel klingen Datenschutzerklärung sehr technisch und
 juristisch. Da die meisten von Ihnen aber keine Webentwickler oder Juristen sind, wollten wir auch sprachlich einen
 anderen Weg gehen und den Sachverhalt in einfacher und klarer Sprache erklären. Immer ist dies natürlich aufgrund der
-Thematik nicht möglich. Daher werden die wichtigsten Begriffe am Ende der Datenschutzerklärung näher erläutert.  
+Thematik nicht möglich. Daher werden die wichtigsten Begriffe am Ende der Datenschutzerklärung näher erläutert.
 Bei Fragen zum Thema Datenschutz auf unserer Website zögern Sie bitte nicht, uns oder die verantwortliche Stelle zu
 kontaktieren. Wir wünschen Ihnen noch eine schöne Zeit und hoffen, Sie auf unserer Website bald wieder begrüßen zu
 dürfen.
