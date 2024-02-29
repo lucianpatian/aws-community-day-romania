@@ -16,7 +16,7 @@ const NotFoundPage = () => (
         <h1>Page not found</h1>
         <p className="mt-2">Sorry, we couldn’t find the page you’re looking for.</p>
         <div className="mt-6">
-          <Link to="/">Go back home</Link>
+          <Link to="/" ariaLabel="Go to Homepage">Go back home</Link>
         </div>
       </div>
     </section>

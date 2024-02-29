@@ -1,7 +1,6 @@
 import React from 'react';
 
-import illustration from './images/hero-illustration.png';
-import Button from '../../../shared/button';
+import illustration from './images/hero-illustration.webp';
 
 const Hero = () => (
   <section className="safe-paddings overflow-hidden mt-12 mb-16">

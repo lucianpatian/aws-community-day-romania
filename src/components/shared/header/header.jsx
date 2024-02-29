@@ -29,7 +29,7 @@ const Header = ({ isMobileMenuOpen, onBurgerClick, additionalClassName, homepage
       )}
     >
       <div className="container flex items-center justify-between py-5">
-        <Link className="z-50" to="/">
+        <Link className="z-50" to="/" ariaLabel="Go to Homepage">
           <Logo className="h-10 w-44" />
         </Link>
 
