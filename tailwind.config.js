@@ -31,7 +31,7 @@ module.exports = {
       transparent: colors.transparent,
       black: '#000000',
       white: '#ffffff',
-      pink: '#F6028D',
+      pink: '#E30282',
       green: '#0DD8B5',
       purple: '#531CB3',
       orange: '#FFBC42',

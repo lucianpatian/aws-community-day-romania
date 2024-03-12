@@ -12,9 +12,9 @@ import Button from '../button';
 import Link from '../link';
 
 const socialMediaIcons = [
-  { icon: LinkedIn, iconClassName: 'w-4', url: LINKS.linkedin.to },
-  { icon: GoogleMaps, iconClassName: 'w-4', url: LINKS.googlemaps.to },
-  { icon: Youtube, iconClassName: 'w-4 pt-1', url: LINKS.youtube.to },
+  { icon: LinkedIn, iconClassName: 'w-4', url: LINKS.linkedin.to, label: 'LinkedIn' },
+  { icon: GoogleMaps, iconClassName: 'w-4', url: LINKS.googlemaps.to, label: 'Google Maps' },
+  { icon: Youtube, iconClassName: 'w-4 pt-1', url: LINKS.youtube.to, label: 'YouTube' },
 ];
 
 const Footer = () => {
@@ -38,7 +38,7 @@ const Footer = () => {
   return (
     <footer className="border-t border-t-gray-10 py-4">
       <div className="container flex items-center justify-between sm:flex-col sm:justify-around sm:gap-6">
-        <Link to="/">
+        <Link to="/" ariaLabel="Go to Homepage">
           <Logo className="h-8 w-44" />
         </Link>
 
@@ -66,10 +66,10 @@ const Footer = () => {
           </a>
 
           <div className="flex flex-row gap-4 justify-center items-center">
-            {socialMediaIcons.map(({ icon, iconClassName, url }, index) => {
+            {socialMediaIcons.map(({ icon, iconClassName, url, label }, index) => {
               const Icon = icon;
               return (
-                <a key={index} href={url} target="_blank" rel="noreferrer">
+                <a key={index} href={url} target="_blank" rel="noreferrer" aria-label={label}>
                   <Icon className={`${iconClassName} hover:scale-110`} />
                 </a>
               );

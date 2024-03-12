@@ -20,7 +20,7 @@ const styles = {
   },
 };
 
-const Link = ({ className: additionalClassName, size, theme, to, children, ...props }) => {
+const Link = ({ className: additionalClassName, size, theme, to, children, ariaLabel, ...props }) => {
   const className = clsx(
     size && theme && styles.base,
     styles.size[size],
@@ -30,14 +30,14 @@ const Link = ({ className: additionalClassName, size, theme, to, children, ...pr
 
   if (to.startsWith('/')) {
     return (
-      <GatsbyLink className={className} to={to} {...props}>
+      <GatsbyLink className={className} to={to} {...props} aria-label={ariaLabel}>
         {children}
       </GatsbyLink>
     );
   }
 
   return (
-    <a className={className} href={to} {...props}>
+    <a className={className} href={to} aria-label={ariaLabel} {...props}>
       {children}
     </a>
   );
@@ -49,6 +49,7 @@ Link.propTypes = {
   size: PropTypes.oneOf(Object.keys(styles.size)),
   theme: PropTypes.oneOf(Object.keys(styles.theme)),
   children: PropTypes.node.isRequired,
+  ariaLabel: PropTypes.string.isRequired,
 };
 
 Link.defaultProps = {

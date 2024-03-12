@@ -58,7 +58,7 @@ const Sponsors = () => (
       >
         <Button>Information Slides</Button>
       </a>
-      <a href="mailto:organizers@kcdaustria.at" target="_blank" rel="noreferrer">
+      <a href="mailto:organizers@kcdaustria.at" target="_blank" rel="noreferrer" aria-label="Get in touch">
         <Button>Get in touch</Button>
       </a>
     </div>
