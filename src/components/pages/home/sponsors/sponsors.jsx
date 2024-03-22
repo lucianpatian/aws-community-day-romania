@@ -6,6 +6,7 @@ import AwsCommunityDays from './logos/AwsCommunityDays.png';
 import Cncf from './logos/Cncf.png';
 import KcdMunich from './logos/KcdMunich.svg';
 import KcdZurich from './logos/KcdZurich.png';
+import MeetingDestinationVienna from './logos/MeetingDestinationVienna.svg';
 
 const sponsors = [
   // {
@@ -27,6 +28,7 @@ const sponsors = [
       { url: 'https://www.kcdmunich.de', logo: KcdMunich },
       { url: 'https://kcdzurich.ch', logo: KcdZurich },
       { url: 'https://aws-community-day.de', logo: AwsCommunityDays, background: '#2A3644' },
+      { url: 'https://meeting.vienna.info/en', logo: MeetingDestinationVienna },
     ],
   },
 ];
