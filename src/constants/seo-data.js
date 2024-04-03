@@ -6,6 +6,10 @@ export default {
   static: ({ title }) => ({
     title: `${title} — KCD Austria`,
   }),
+  volunteer: {
+    title: 'Volunteer — KCD Austria',
+    description: 'Volunteer at the KCD Austria and help make the event a success!',
+  },
 
   page404: {
     title: 'Page Not Found — KCD Austria',

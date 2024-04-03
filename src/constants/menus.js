@@ -4,6 +4,7 @@ const MENUS = {
   header: [
     { text: 'Schedule', ...LINKS.schedule },
     { text: 'Sponsors', ...LINKS.sponsors },
+    { text: 'Volunteer', ...LINKS.volunteer },
   ],
   footer: [
     { text: 'Code of Conduct', ...LINKS.conduct },
@@ -13,6 +14,7 @@ const MENUS = {
   mobile: [
     { text: 'Schedule', ...LINKS.schedule },
     { text: 'Sponsors', ...LINKS.sponsors },
+    { text: 'Volunteer', ...LINKS.volunteer },
   ],
 };
 
