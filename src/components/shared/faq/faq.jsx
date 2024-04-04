@@ -10,7 +10,7 @@ const FAQ = ({ question, answer }) => {
 
   return (
     <section className="safe-paddings container-md">
-      <strong>{question} <button onClick={toggleExpand}>+</button></strong>
+      <strong><button onClick={toggleExpand}>{question} {expanded ? '-' : '+'}</button></strong>
       {expanded && (
         <p>
           {answer}
