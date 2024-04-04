@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 
-import Volunteer from 'components/pages/volunteer/volunteer';
+import Info from 'components/pages/volunteer/info';
 import FAQ from 'components/shared/faq';
 import Layout from 'components/shared/layout';
 import Link from 'components/shared/link/link';
@@ -10,7 +10,7 @@ import SEO_DATA from 'constants/seo-data';
 
 const VolunteerPage = () => (
   <Layout>
-    <Volunteer />
+    <Info />
     <br />
     <FAQ
       question="What are the requirements for volunteers?"

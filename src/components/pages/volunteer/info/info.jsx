@@ -21,7 +21,7 @@ export const FAQ = () => {
   );
 };
 
-const Volunteer = () => (
+const Info = () => (
   <section className="safe-paddings container-md">
     <p>
       KCD Austria is constantly growing and is not possible without dedicated volunteers.
@@ -32,11 +32,11 @@ const Volunteer = () => (
       Every volunteer who helps out will get free entrance to both conference days.
       <br />
       <br />
-      If you are interested in volunteering, please send us an email to <Link to="mailto:organizers@kcdaustria.at?subject=Volunteer for KCD Austria 2024" ariaLabel="organizers@kcdaustria.at">organizers@kcdaustria.at</Link>.
+      If you are interested in volunteering, please fill out this <Link to="https://forms.gle/R9peGcYxQVEchjQ49" target="_blank" ariaLabel="form for volunteer registration">form for volunteer registration</Link>.
       The registration deadline is May 31st. If you are unable to attend for any reason,
       please let us know as soon as possible so that we can find a replacement.
     </p>
   </section>
 );
 
-export default Volunteer;
+export default Info;
