@@ -2,6 +2,7 @@ import React from 'react';
 
 import Person from '../../../shared/person';
 
+import Anais from './images/AnaisUrlichs.png';
 import Andi from './images/AndreasGrabner.jpeg';
 import Constanze from './images/ConstanzeRoedig.png';
 import Daniel from './images/DanielDrack.jpeg';
@@ -15,6 +16,11 @@ import Thomas from './images/ThomasSchuetz.png';
 import Tom from './images/ThomasStagl.jpeg';
 
 const teamMembers = [
+  {
+    name: 'Anais Urlichs',
+    tagLine: 'Open Source Developer Advocate, Aqua Security',
+    picture: Anais,
+  },
   {
     name: 'Andreas Grabner',
     tagLine: 'CNCF Ambassador, CNCF Keptn & Dynatrace DevRel',
