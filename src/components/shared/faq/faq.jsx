@@ -10,12 +10,12 @@ const FAQ = ({ question, answer }) => {
 
   return (
     <section className="safe-paddings container-md">
-      <strong><button onClick={toggleExpand}>{question} {expanded ? '-' : '+'}</button></strong>
-      {expanded && (
-        <p>
-          {answer}
-        </p>
-      )}
+      <h3 className="text-start">
+        <button onClick={toggleExpand}>
+          {question} {expanded ? '-' : '+'}
+        </button>
+      </h3>
+      {expanded && <p className="mt-2">{answer}</p>}
     </section>
   );
 };
