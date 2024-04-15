@@ -1,6 +1,7 @@
 import React from 'react';
 
 import illustration from './images/hero-illustration.webp';
+import Button from '../../../shared/button';
 
 const Hero = () => (
   <section className="safe-paddings overflow-hidden mt-12 mb-16">
@@ -20,10 +21,12 @@ const Hero = () => (
           IT professionals interested in cloud native technologies. This community event is
           supported by the CNCF.
         </p>
-        {/*<div className="mt-10 flex container flex-row gap-4 w-full sm:flex-col">*/}
-        {/*  <Button to="TODO" target="_blank">Submit your proposal</Button>*/}
-        {/*  <Button to="TODO" target="_blank">Get your Tickets</Button>*/}
-        {/*</div>*/}
+        <div className="mt-10 flex container flex-row gap-4 w-full sm:flex-col p-0">
+          <Button to="https://sessionize.com/kcd-austria" target="_blank">
+            Submit your talk
+          </Button>
+          {/*<Button to="TODO" target="_blank">Get your Tickets</Button>*/}
+        </div>
       </div>
       <img
         className="flex-grow flex-shrink w-1/2 object-contain md:mt-12 md:w-3/4 md:max-w-[400px] pl-[48px] md:pl-0"

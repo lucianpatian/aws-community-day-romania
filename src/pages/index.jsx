@@ -6,12 +6,14 @@ import Layout from 'components/shared/layout';
 import SEO from 'components/shared/seo';
 
 import Sponsors from '../components/pages/home/sponsors';
-import Schedule from "../components/pages/home/schedule";
+import Schedule from '../components/pages/home/schedule';
+import Cfp from '../components/pages/home/cfp';
 
 const HomePage = () => (
   <Layout homepage>
     <Hero />
     <Info />
+    <Cfp />
     <Schedule />
     <Sponsors />
   </Layout>
