@@ -2,6 +2,7 @@ import React from 'react';
 
 import Button from 'components/shared/button';
 
+import Whizus from './logos/Whizus.png';
 import AwsCommunityDays from './logos/AwsCommunityDays.png';
 import Cncf from './logos/Cncf.png';
 import KcdMunich from './logos/KcdMunich.svg';
@@ -9,10 +10,12 @@ import KcdZurich from './logos/KcdZurich.png';
 import MeetingDestinationVienna from './logos/MeetingDestinationVienna.svg';
 
 const sponsors = [
-  // {
-  //   title: 'Gold',
-  //   sponsors: [],
-  // },
+  {
+    title: 'Gold',
+    sponsors: [
+      { url: 'https://www.whizus.com', logo: Whizus },
+    ],
+  },
   // {
   //   title: 'Silver',
   //   sponsors: [],
