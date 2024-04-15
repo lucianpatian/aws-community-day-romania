@@ -9,7 +9,7 @@ const Cfp = () => (
       all ears! Submit your talk and <strong>be a part of this exciting community event</strong>.
       Your voice matters, and we encourage new speakers to apply! Let's learn and grow together!
     </p>
-    <Button className="mt-6" to="TODO" target="_blank">
+    <Button className="mt-6" to="https://sessionize.com/kcd-austria" target="_blank">
       Submit your talk now
     </Button>
   </section>
