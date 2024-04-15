@@ -7,6 +7,11 @@ export default {
   home: {
     to: '/',
   },
+  cfp: {
+    to: `/#${getAnchor('cfp')}`,
+    id: `/#${getAnchor('cfp')}`,
+    homeTo: '/',
+  },
   schedule: {
     to: `/#${getAnchor('schedule')}`,
     id: `/#${getAnchor('schedule')}`,

@@ -2,6 +2,7 @@ import LINKS from 'constants/links.js';
 
 const MENUS = {
   header: [
+    { text: 'Call for Proposals', ...LINKS.cfp },
     { text: 'Schedule', ...LINKS.schedule },
     { text: 'Sponsors', ...LINKS.sponsors },
   ],
