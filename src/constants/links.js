@@ -8,8 +8,8 @@ export default {
     to: '/',
   },
   cfp: {
-    to: `/#${getAnchor('cfp')}`,
-    id: `/#${getAnchor('cfp')}`,
+    to: `/#${getAnchor('Call for Proposals')}`,
+    id: `/#${getAnchor('Call for Proposals')}`,
     homeTo: '/',
   },
   schedule: {

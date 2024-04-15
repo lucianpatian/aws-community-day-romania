@@ -3,7 +3,7 @@ import Button from '../../../shared/button';
 
 const Cfp = () => (
   <section className="safe-paddings container-md text-center">
-    <h1 id="cfp">Call for Proposals</h1>
+    <h1 id="call-for-proposals">Call for Proposals</h1>
     <p>
       Got a Cloud Native story to tell? A cool project to showcase? Brilliant tips to share? We're
       all ears! Submit your talk and <strong>be a part of this exciting community event</strong>.

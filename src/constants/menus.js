@@ -12,6 +12,7 @@ const MENUS = {
     { text: 'Impressum & Data Privacy', ...LINKS.privacy },
   ],
   mobile: [
+    { text: 'Call for Proposals', ...LINKS.cfp },
     { text: 'Schedule', ...LINKS.schedule },
     { text: 'Sponsors', ...LINKS.sponsors },
   ],
