@@ -12,6 +12,11 @@ export default {
     id: `/#${getAnchor('Call for Proposals')}`,
     homeTo: '/',
   },
+  tickets: {
+    to: `/#${getAnchor('Tickets')}`,
+    id: `/#${getAnchor('Tickets')}`,
+    homeTo: '/',
+  },
   schedule: {
     to: `/#${getAnchor('schedule')}`,
     id: `/#${getAnchor('schedule')}`,

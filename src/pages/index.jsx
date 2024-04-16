@@ -8,12 +8,14 @@ import SEO from 'components/shared/seo';
 import Sponsors from '../components/pages/home/sponsors';
 import Schedule from '../components/pages/home/schedule';
 import Cfp from '../components/pages/home/cfp';
+import Tickets from '../components/pages/home/tickets';
 
 const HomePage = () => (
   <Layout homepage>
     <Hero />
     <Info />
     <Cfp />
+    <Tickets />
     <Schedule />
     <Sponsors />
   </Layout>
