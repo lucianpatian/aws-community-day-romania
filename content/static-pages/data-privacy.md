@@ -10,6 +10,9 @@ Cloud Native Austria - Verein zur Förderung Cloud Nativer Technologien in Öste
 Kirchenplatz 6, Stiege 3, Tür 2<br/>
 1230 Wien
 
+UID: ATU80535636<br />
+Steuernummer: 09 419/9486
+
 **Gegenstand des Vereins**: Förderung Cloud Nativer Technologien in Österreich<br/>
 **ZVR-Zahl**: 1230260391<br/>
 **Austellung**: Landespolizeidirektion Wien, Referat Vereins-, Versammlungs- und Medienrechtsangelegenheiten<br/>
@@ -104,14 +107,14 @@ darüber.
 ### Kontaktdaten des Verantwortlichen
 
 Sollten Sie Fragen zum Datenschutz oder zur Verarbeitung personenbezogener Daten haben, finden Sie nachfolgend die
-Kontaktdaten der verantwortlichen Person bzw. Stelle:
+Kontaktdaten der verantwortlichen Person bzw. Stelle:<br />
 Cloud Native Austria - Verein zur Förderung Cloud Nativer Technologien in
-Österreich
-Kirchenplatz 6, Stiege 3, Tür 2, 1230 Wien
-Vertretungsberechtigt: Markus Mustermann
-E-Mail: [mail@musterfirma.at](mailto:mail@musterfirma.at)
-Telefon: [+43 4711 12345](tel:+43%204711%2012345)
-Impressum: [https://www.musterfirma.at/impressum/](https://www.musterfirma.at/impressum/)
+Österreich<br />
+Kirchenplatz 6, Stiege 3, Tür 2<br />
+1230 Wien<br />
+Vertretungsberechtigt: Thomas Schuetz<br />
+E-Mail: [ingress@cloud-native.at](mailto:ingress@cloud-native.at)<br />
+Impressum: [https://kcdaustria.at/imprint-and-data-privacy/](https://kcdaustria.at/imprint-and-data-privacy/)
 
 ### Speicherdauer
 
