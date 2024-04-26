@@ -10,7 +10,7 @@ Cloud Native Austria - Verein zur Förderung Cloud Nativer Technologien in Öste
 Kirchenplatz 6, Stiege 3, Tür 2<br/>
 1230 Wien
 
-UID: ATU80535636<br />
+UID: ATU80535636<br/>
 Steuernummer: 09 419/9486
 
 **Gegenstand des Vereins**: Förderung Cloud Nativer Technologien in Österreich<br/>
@@ -107,13 +107,13 @@ darüber.
 ### Kontaktdaten des Verantwortlichen
 
 Sollten Sie Fragen zum Datenschutz oder zur Verarbeitung personenbezogener Daten haben, finden Sie nachfolgend die
-Kontaktdaten der verantwortlichen Person bzw. Stelle:<br />
+Kontaktdaten der verantwortlichen Person bzw. Stelle:<br/>
 Cloud Native Austria - Verein zur Förderung Cloud Nativer Technologien in
-Österreich<br />
-Kirchenplatz 6, Stiege 3, Tür 2<br />
-1230 Wien<br />
-Vertretungsberechtigt: Thomas Schuetz<br />
-E-Mail: [ingress@cloud-native.at](mailto:ingress@cloud-native.at)<br />
+Österreich<br/>
+Kirchenplatz 6, Stiege 3, Tür 2<br/>
+1230 Wien<br/>
+Vertretungsberechtigt: Thomas Schuetz<br/>
+E-Mail: [ingress@cloud-native.at](mailto:ingress@cloud-native.at)<br/>
 Impressum: [https://kcdaustria.at/imprint-and-data-privacy/](https://kcdaustria.at/imprint-and-data-privacy/)
 
 ### Speicherdauer
@@ -184,8 +184,8 @@ wenden. Für unser Unternehmen ist die folgende lokale Datenschutzbehörde zust�
 
 ### Österreich Datenschutzbehörde
 
-**Leiterin:** Mag. Dr. Andrea Jelinek<br /> **Adresse:** Barichgasse 40-42, 1030 Wien<br /> **Telefonnr.:** +43 1 52 152-0 <br />
-**E-Mail-Adresse:** [dsb@dsb.gv.at](mailto:dsb@dsb.gv.at)<br /> **Website:** [https://www.dsb.gv.at/](https://www.dsb.gv.at/)
+**Leiterin:** Mag. Dr. Andrea Jelinek<br/> **Adresse:** Barichgasse 40-42, 1030 Wien<br/> **Telefonnr.:** +43 1 52 152-0 <br/>
+**E-Mail-Adresse:** [dsb@dsb.gv.at](mailto:dsb@dsb.gv.at)<br/> **Website:** [https://www.dsb.gv.at/](https://www.dsb.gv.at/)
 
 ### Kommunikation
 
