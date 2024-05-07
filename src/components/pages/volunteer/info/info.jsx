@@ -6,22 +6,6 @@ import organizersPic from './images/organizers.jpg';
 import beerPic from './images/beer.jpg';
 import photoPic from './images/photo.jpg';
 
-export const FAQ = () => {
-  const [expanded, setExpanded] = useState(false);
-
-  const toggleExpand = () => {
-    setExpanded(!expanded);
-  };
-
-  return (
-    <div>
-      <button onClick={toggleExpand}>+</button>
-      <h3>Question</h3>
-      {expanded && <p>Answer</p>}
-    </div>
-  );
-};
-
 const Info = () => (
   <section className="safe-paddings container-md">
     <h1>Become a Volunteer</h1>
@@ -37,8 +21,11 @@ const Info = () => (
       out. As a thank you for your support, we also offer you some benefits.
       <br />
       <br />
-      Every volunteer who helps out will get free entrance to both conference days.
-      <br />
+      Every volunteer who helps out will gets
+      <li>free entrance to both conference days</li>
+      <li>Volunteer shirt</li>
+      <li>free drinks and food</li>
+      <li>free parking ticket</li>
       <br />
       If you are interested in volunteering, please fill out this{' '}
       <Link
@@ -48,8 +35,12 @@ const Info = () => (
       >
         form for volunteer registration
       </Link>
-      . The registration deadline is May 31st. If you are unable to attend for any reason, please
+      . The registration deadline is July 31st. If you are unable to attend for any reason, please
       let us know as soon as possible so that we can find a replacement.
+      <br />
+      <br />
+      Depending on how many volunteers we have in the respective areas, the shifts will last around 6 hours.
+      We will send you your exact schedule at least 2 weeks before the event.
     </p>
     <div className="sm:hidden w-full grid grid-cols-3 gap-2 my-6">
       <img

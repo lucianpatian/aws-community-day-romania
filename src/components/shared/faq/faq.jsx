@@ -12,7 +12,7 @@ const FAQ = ({ question, answer }) => {
     <section className="safe-paddings container-md">
       <h3 className="text-start">
         <button onClick={toggleExpand}>
-          {question} {expanded ? '-' : '+'}
+          {expanded ? '-' : '+'} {question}
         </button>
       </h3>
       {expanded && <p className="mt-2">{answer}</p>}
@@ -22,7 +22,7 @@ const FAQ = ({ question, answer }) => {
 
 FAQ.propTypes = {
   question: PropTypes.string,
-  answer: PropTypes.string,
+  answer: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
 };
 
 export default FAQ;
