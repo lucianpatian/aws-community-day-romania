@@ -16,10 +16,10 @@ const Faq = () => (
         question="What are the benefits of volunteering?"
         answer={
           <>Every volunteer who helps out will get
-            <li>free entrance to both conference days</li>
+            <li>Free entrance to both conference days</li>
             <li>Volunteer shirt</li>
-            <li>free drinks and food</li>
-            <li>free parking ticket</li>
+            <li>Free drinks and food</li>
+            <li>Free parking ticket</li>
           </>}
       />
       <FAQ
