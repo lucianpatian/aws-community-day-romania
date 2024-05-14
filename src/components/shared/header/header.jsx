@@ -37,7 +37,7 @@ const Header = ({ isMobileMenuOpen, onBurgerClick, additionalClassName, homepage
           <ul className="flex md:hidden">
             {MENUS.header.map(({ text, to, homeTo }, index) => (
               <li key={index}>
-                {homepage ? (
+                {homepage && homeTo ? (
                   <Button to={homeTo} theme="link" onClick={handleAnchorClick}>
                     {text}
                   </Button>
