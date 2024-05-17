@@ -8,6 +8,7 @@ import Cncf from './logos/Cncf.png';
 import KcdMunich from './logos/KcdMunich.svg';
 import KcdZurich from './logos/KcdZurich.png';
 import MeetingDestinationVienna from './logos/MeetingDestinationVienna.svg';
+import RaiffeisenBankInternational from './logos/RaiffeisenBankInternational.png';
 
 const sponsors = [
   {
@@ -16,10 +17,12 @@ const sponsors = [
       { url: 'https://www.whizus.com', logo: Whizus },
     ],
   },
-  // {
-  //   title: 'Silver',
-  //   sponsors: [],
-  // },
+  {
+    title: 'Silver',
+    sponsors: [
+      { url: 'https://rbinternational.com', logo: RaiffeisenBankInternational },
+    ],
+  },
   // {
   //   title: 'Bronze',
   //   sponsors: [],
