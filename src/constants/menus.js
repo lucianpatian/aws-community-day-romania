@@ -3,8 +3,10 @@ import LINKS from 'constants/links.js';
 const MENUS = {
   header: [
     { text: 'Call for Proposals', ...LINKS.cfp },
+    { text: 'Tickets', ...LINKS.tickets },
     { text: 'Schedule', ...LINKS.schedule },
     { text: 'Sponsors', ...LINKS.sponsors },
+    { text: 'Volunteer', ...LINKS.volunteer },
   ],
   footer: [
     { text: 'Code of Conduct', ...LINKS.conduct },
@@ -13,8 +15,10 @@ const MENUS = {
   ],
   mobile: [
     { text: 'Call for Proposals', ...LINKS.cfp },
+    { text: 'Tickets', ...LINKS.tickets },
     { text: 'Schedule', ...LINKS.schedule },
     { text: 'Sponsors', ...LINKS.sponsors },
+    { text: 'Volunteer', ...LINKS.volunteer },
   ],
 };
 

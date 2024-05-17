@@ -20,7 +20,7 @@ const styles = {
   },
 };
 
-const Link = ({ className: additionalClassName, size, theme, to, children, ariaLabel, ...props }) => {
+const Link = ({ className: additionalClassName, size, theme, to, children, ariaLabel, openInNewTab, ...props }) => {
   const className = clsx(
     size && theme && styles.base,
     styles.size[size],
@@ -37,7 +37,7 @@ const Link = ({ className: additionalClassName, size, theme, to, children, ariaL
   }
 
   return (
-    <a className={className} href={to} aria-label={ariaLabel} {...props}>
+    <a className={className} href={to} aria-label={ariaLabel} target={openInNewTab ? '_blank' : '_self'} {...props}>
       {children}
     </a>
   );
@@ -50,6 +50,7 @@ Link.propTypes = {
   theme: PropTypes.oneOf(Object.keys(styles.theme)),
   children: PropTypes.node.isRequired,
   ariaLabel: PropTypes.string.isRequired,
+  openInNewTab: PropTypes.bool,
 };
 
 Link.defaultProps = {
@@ -57,6 +58,7 @@ Link.defaultProps = {
   to: null,
   size: null,
   theme: null,
+  openInNewTab: false
 };
 
 export default Link;
