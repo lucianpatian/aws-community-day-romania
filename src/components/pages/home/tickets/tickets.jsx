@@ -1,14 +1,22 @@
 import React from 'react';
-import Link from '../../../shared/link';
+import Button from '../../../shared/button';
 
 const Tickets = () => (<section className="safe-paddings container-md text-center">
   <h1 id="tickets">Tickets</h1>
   <p>
-    Tickets for KCD Austria will be available soon. Stay tuned for the official release date and pricing information.
-    Follow us on
-    <Link ariaLabel="Kubernetes Community Days Austria page on LinkedIn"
-          to="https://www.linkedin.com/company/kcdaustria" openInNewTab> LinkedIn</Link> to be the
-    first to know when ticket sales open.
+    Join us for KCD Austria! We offer two ticket options:
+  </p>
+  <h3>Conference Pass</h3>
+  <p>
+    Gain full access to the main conference on October 9th and 10th.
+  </p>
+  <Button className="my-6" to="https://tickets.kcdaustria.at" target="_blank">
+    Get your conference pass
+  </Button>
+  <h3>Workshop Pass</h3>
+  <p>
+    The workshop pass for October 8th will become available once we've finalized our workshop schedule. We'll keep you
+    updated so you can choose the best workshops for your interests.
   </p>
 </section>);
 export default Tickets;

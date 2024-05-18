@@ -25,7 +25,12 @@ const Hero = () => (
           <Button to="https://sessionize.com/kcd-austria" target="_blank">
             Submit your talk
           </Button>
-          {/*<Button to="TODO" target="_blank">Get your Tickets</Button>*/}
+          <Button onClick={(e) => {
+            e.preventDefault();
+            document.getElementById('tickets').scrollIntoView({ behavior: 'smooth' });
+          }}>
+            Get your Tickets
+          </Button>
         </div>
       </div>
       <img
