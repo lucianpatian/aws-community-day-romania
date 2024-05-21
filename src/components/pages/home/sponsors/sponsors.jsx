@@ -15,6 +15,7 @@ import FullStacks from './logos/FullStacks.png';
 import Cloudpilots from './logos/Cloudpilots.png';
 import CloudWerkstatt from './logos/CloudWerkstatt.png';
 import NextLayer from './logos/NextLayer.webp';
+import NTS from './logos/NTS.png';
 
 const sponsors = [
   {
@@ -31,6 +32,7 @@ const sponsors = [
       { url: 'https://www.fullstacks.eu', logo: FullStacks },
       { url: 'https://www.cloudwerkstatt.com', logo: CloudWerkstatt },
       { url: 'https://www.nextlayer.at', logo: NextLayer },
+      { url: 'https://www.nts.eu', logo: NTS },
     ],
   },
   // {
