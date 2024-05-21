@@ -8,7 +8,13 @@ import Cncf from './logos/Cncf.png';
 import KcdMunich from './logos/KcdMunich.svg';
 import KcdZurich from './logos/KcdZurich.png';
 import MeetingDestinationVienna from './logos/MeetingDestinationVienna.svg';
+import KubeCareers from './logos/KubeCareers.webp';
+import KubeEvents from './logos/KubeEvents.webp';
 import RaiffeisenBankInternational from './logos/RaiffeisenBankInternational.png';
+import FullStacks from './logos/FullStacks.png';
+import Cloudpilots from './logos/Cloudpilots.png';
+import CloudWerkstatt from './logos/CloudWerkstatt.png';
+import NextLayer from './logos/NextLayer.webp';
 import NTS from './logos/NTS.png';
 
 const sponsors = [
@@ -16,12 +22,16 @@ const sponsors = [
     title: 'Gold',
     sponsors: [
       { url: 'https://www.whizus.com', logo: Whizus },
+      { url: 'https://www.cloudpilots.com', logo: Cloudpilots }
     ],
   },
   {
     title: 'Silver',
     sponsors: [
       { url: 'https://rbinternational.com', logo: RaiffeisenBankInternational },
+      { url: 'https://www.fullstacks.eu', logo: FullStacks },
+      { url: 'https://www.cloudwerkstatt.com', logo: CloudWerkstatt },
+      { url: 'https://www.nextlayer.at', logo: NextLayer },
       { url: 'https://www.nts.eu', logo: NTS },
     ],
   },
@@ -37,6 +47,8 @@ const sponsors = [
       { url: 'https://kcdzurich.ch', logo: KcdZurich },
       { url: 'https://aws-community-day.de', logo: AwsCommunityDays, background: '#2A3644' },
       { url: 'https://meeting.vienna.info/en', logo: MeetingDestinationVienna },
+      { url: 'https://kube.careers', logo: KubeCareers },
+      { url: 'https://kube.events', logo: KubeEvents },
     ],
   },
 ];
