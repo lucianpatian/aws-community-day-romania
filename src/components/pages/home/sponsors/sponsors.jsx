@@ -9,12 +9,14 @@ import KcdMunich from './logos/KcdMunich.svg';
 import KcdZurich from './logos/KcdZurich.png';
 import MeetingDestinationVienna from './logos/MeetingDestinationVienna.svg';
 import RaiffeisenBankInternational from './logos/RaiffeisenBankInternational.png';
+import Cloudpilots from './logos/Cloudpilots.png';
 
 const sponsors = [
   {
     title: 'Gold',
     sponsors: [
       { url: 'https://www.whizus.com', logo: Whizus },
+      { url: 'https://www.cloudpilots.com', logo: Cloudpilots }
     ],
   },
   {
