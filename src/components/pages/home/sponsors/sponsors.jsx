@@ -9,6 +9,7 @@ import KcdMunich from './logos/KcdMunich.svg';
 import KcdZurich from './logos/KcdZurich.png';
 import MeetingDestinationVienna from './logos/MeetingDestinationVienna.svg';
 import RaiffeisenBankInternational from './logos/RaiffeisenBankInternational.png';
+import CloudWerkstatt from './logos/CloudWerkstatt.png';
 
 const sponsors = [
   {
@@ -21,6 +22,7 @@ const sponsors = [
     title: 'Silver',
     sponsors: [
       { url: 'https://rbinternational.com', logo: RaiffeisenBankInternational },
+      { url: 'https://www.cloudwerkstatt.com', logo: CloudWerkstatt },
     ],
   },
   // {
