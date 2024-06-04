@@ -16,13 +16,15 @@ import Cloudpilots from './logos/Cloudpilots.png';
 import CloudWerkstatt from './logos/CloudWerkstatt.png';
 import NextLayer from './logos/NextLayer.webp';
 import NTS from './logos/NTS.png';
+import Exoscale from './logos/Exoscale.png';
 
 const sponsors = [
   {
     title: 'Gold',
     sponsors: [
       { url: 'https://www.whizus.com', logo: Whizus },
-      { url: 'https://www.cloudpilots.com', logo: Cloudpilots }
+      { url: 'https://www.cloudpilots.com', logo: Cloudpilots },
+      { url: 'https://www.exoscale.com/', logo: Exoscale }
     ],
   },
   {
@@ -85,30 +87,36 @@ const Sponsors = () => (
       </a>
     </div>
 
-    {sponsors.map(({ title, sponsors }, index) => (
-      <div key={index}>
-        <h2>{title}</h2>
-        <div className="flex flex-row flex-wrap w-full justify-center mb-12 sm:gap-4">
-          {sponsors.map(({ logo, url, background }, index) => (
-            <a
-              key={index}
-              href={url}
-              target="_blank"
-              className="w-1/4 hover:scale-105 md:w-1/2 sm:w-5/6 px-6"
-              rel="noreferrer"
-            >
-              <img
-                src={logo}
-                className="w-full h-[100px] object-contain rounded-md p-2"
-                style={{ background }}
-                loading="lazy"
-                alt="sponsor-logo"
-              />
-            </a>
-          ))}
+    {sponsors.map(({ title, sponsors }, index) => {
+      // Randomly sort the sponsors array
+      const sortedSponsors = [...sponsors].sort(() => Math.random() - 0.5);
+
+      return (
+        <div key={index}>
+          <h2>{title}</h2>
+          <div className="flex flex-row flex-wrap w-full justify-center mb-12 sm:gap-4">
+            {sortedSponsors.map(({ logo, url, background }, index) => (
+              <a
+                key={index}
+                href={url}
+                target="_blank"
+                className="w-1/4 hover:scale-105 md:w-1/2 sm:w-5/6 px-6"
+                rel="noreferrer"
+              >
+                <img
+                  src={logo}
+                  className="w-full h-[100px] object-contain rounded-md p-2"
+                  style={{ background }}
+                  loading="lazy"
+                  alt="sponsor-logo"
+                />
+              </a>
+            ))}
+          </div>
         </div>
-      </div>
-    ))}
+      );
+    })}
+
   </section>
 );
 export default Sponsors;
