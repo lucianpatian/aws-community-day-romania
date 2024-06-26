@@ -18,6 +18,10 @@ import NextLayer from './logos/NextLayer.webp';
 import NTS from './logos/NTS.png';
 import Exoscale from './logos/Exoscale.png';
 import Dynatrace from './logos/Dynatrace.png';
+import Splunk from './logos/Splunk.png';
+import Tigera from './logos/Tigera.png';
+import PorscheInformatik from './logos/PorscheInformatik.png';
+import Veeam from './logos/Veeam.png';
 
 const sponsors = [
   {
@@ -26,7 +30,8 @@ const sponsors = [
       { url: 'https://www.whizus.com', logo: Whizus },
       { url: 'https://www.cloudpilots.com', logo: Cloudpilots },
       { url: 'https://www.exoscale.com/', logo: Exoscale },
-      { url: 'https://www.dynatrace.com/', logo: Dynatrace }
+      { url: 'https://www.dynatrace.com/', logo: Dynatrace },
+      { url: 'https://www.splunk.com/', logo: Splunk }
     ],
   },
   {
@@ -37,12 +42,16 @@ const sponsors = [
       { url: 'https://www.cloudwerkstatt.com', logo: CloudWerkstatt },
       { url: 'https://www.nextlayer.at', logo: NextLayer },
       { url: 'https://www.nts.eu', logo: NTS },
+      { url: 'https://www.tigera.io', logo: Tigera },
+      { url: 'https://www.veeam.com', logo: Veeam }
     ],
   },
-  // {
-  //   title: 'Bronze',
-  //   sponsors: [],
-  // },
+  {
+    title: 'Community',
+    sponsors: [
+      { url: 'https://www.porscheinformatik.com', logo: PorscheInformatik }
+    ],
+  },
   {
     title: 'Media Partners',
     sponsors: [
