@@ -25,7 +25,7 @@ const sponsors = [
     sponsors: [
       { url: 'https://www.whizus.com', logo: Whizus },
       { url: 'https://www.cloudpilots.com', logo: Cloudpilots },
-      { url: 'https://www.exoscale.com/', logo: Exoscale }
+      { url: 'https://www.exoscale.com/', logo: Exoscale },
       { url: 'https://www.dynatrace.com/', logo: Dynatrace }
     ],
   },
