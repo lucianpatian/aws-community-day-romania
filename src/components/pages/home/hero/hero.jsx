@@ -22,9 +22,6 @@ const Hero = () => (
           supported by the CNCF.
         </p>
         <div className="mt-10 flex container flex-row gap-4 w-full sm:flex-col p-0">
-          <Button to="https://sessionize.com/kcd-austria" target="_blank">
-            Submit your talk
-          </Button>
           <Button onClick={(e) => {
             e.preventDefault();
             document.getElementById('tickets').scrollIntoView({ behavior: 'smooth' });

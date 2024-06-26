@@ -1,17 +1,15 @@
 import React from 'react';
-import Button from '../../../shared/button';
 
 const Cfp = () => (
   <section className="safe-paddings container-md text-center">
     <h1 id="call-for-proposals">Call for Proposals</h1>
     <p>
-      Got a Cloud Native story to tell? A cool project to showcase? Brilliant tips to share? We're
-      all ears! Submit your talk and <strong>be a part of this exciting community event</strong>.
-      Your voice matters, and we encourage new speakers to apply! Let's learn and grow together!
+      Our call for proposals has <strong>now closed</strong>. Thank you to everybody who submitted a session for your
+      enthusiasm and willingness to share your knowledge. We are now evaluating all submissions and will <strong>reach
+      out to all applicants until end of July</strong>.
+      <br /><br />
+      We're excited to craft a conference program packed with insightful talks and workshops.
     </p>
-    <Button className="mt-6" to="https://sessionize.com/kcd-austria" target="_blank">
-      Submit your talk now
-    </Button>
   </section>
 );
 export default Cfp;
