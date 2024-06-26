@@ -17,6 +17,7 @@ import CloudWerkstatt from './logos/CloudWerkstatt.png';
 import NextLayer from './logos/NextLayer.webp';
 import NTS from './logos/NTS.png';
 import Exoscale from './logos/Exoscale.png';
+import Dynatrace from './logos/Dynatrace.png';
 
 const sponsors = [
   {
@@ -25,6 +26,7 @@ const sponsors = [
       { url: 'https://www.whizus.com', logo: Whizus },
       { url: 'https://www.cloudpilots.com', logo: Cloudpilots },
       { url: 'https://www.exoscale.com/', logo: Exoscale }
+      { url: 'https://www.dynatrace.com/', logo: Dynatrace }
     ],
   },
   {
