@@ -78,7 +78,7 @@ const Sponsors = () => (
     </p>
     <div className="mt-6 mb-12 flex flex-row justify-center gap-4 sm:flex-col">
       <a
-        href="https://drive.google.com/file/d/1BTvt8IpZFnhstSCKX_y3V-YNmp8ZGdi0/view?usp=share_link"
+        href="https://drive.google.com/file/d/15cC_G7hZrMVhrIwiukkfxPvMoRvBPKKZ/view?usp=sharing"
         target="_blank"
         rel="noreferrer"
       >
