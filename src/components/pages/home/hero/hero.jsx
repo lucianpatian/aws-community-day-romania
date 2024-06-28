@@ -1,6 +1,6 @@
 import React from 'react';
 
-import illustration from './images/CommunityDay_Sitemerch_hexagon01.png';
+import illustration from './images/CommunityDay_Sitemerch_hexagon01.webp';
 import Button from '../../../shared/button';
 
 const Hero = () => (
