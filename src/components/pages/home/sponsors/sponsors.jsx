@@ -85,8 +85,8 @@ const Sponsors = () => (
         contact@aws-community.ro{' '}
       </a>
     </p>
-    {/* <div className="mt-6 mb-12 flex flex-row justify-center gap-4 sm:flex-col">
-      <a
+    <div className="mt-6 mb-12 flex flex-row justify-center gap-4 sm:flex-col">
+      {/* <a
         href="https://drive.google.com/file/d/15cC_G7hZrMVhrIwiukkfxPvMoRvBPKKZ/view?usp=sharing"
         target="_blank"
         rel="noreferrer"
@@ -95,8 +95,8 @@ const Sponsors = () => (
       </a>
       <a href="mailto:organizers@kcdaustria.at" target="_blank" rel="noreferrer" aria-label="Get in touch">
         <Button>Get in touch</Button>
-      </a>
-    </div> */}
+      </a> */}
+    </div>
 
     {sponsors.map(({ title, sponsors }, index) => {
       // Randomly sort the sponsors array
