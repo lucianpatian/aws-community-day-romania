@@ -2,7 +2,7 @@ import React from 'react';
 
 import Button from 'components/shared/button';
 
-import Haufe Group from './logos/HG_Logo_Standard.jpg';
+import HaufeGroup from './logos/HG_Logo_Standard.jpg';
 // import AwsCommunityDays from './logos/AwsCommunityDays.png';
 // import Cncf from './logos/Cncf.png';
 // import KcdMunich from './logos/KcdMunich.svg';
