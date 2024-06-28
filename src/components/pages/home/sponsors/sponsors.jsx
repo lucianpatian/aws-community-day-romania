@@ -98,7 +98,7 @@ const Sponsors = () => (
       </a> */}
     </div>
 
-    {sponsors.map(({ title, sponsors }, index) => {
+    {/* {sponsors.map(({ title, sponsors }, index) => {
       // Randomly sort the sponsors array
       const sortedSponsors = [...sponsors].sort(() => Math.random() - 0.5);
 
@@ -126,7 +126,7 @@ const Sponsors = () => (
           </div>
         </div>
       );
-    })}
+    })} */}
 
   </section>
 );
