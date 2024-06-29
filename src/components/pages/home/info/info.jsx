@@ -14,14 +14,14 @@ const Info = () => (
     <h1>What to expect?</h1>
     <div className="flex flex-row md:flex-col">
       <div className="w-1/3 md:w-full text-center px-4">
-        <h2 className="text-pink">15+</h2>
+        <h2 className="text-orange">15+</h2>
         <p>
           <strong>Technically competent talks & panels</strong> relevant to the AWS community
           and coming from end-users.
         </p>
       </div>
       <div className="w-1/3 md:w-full text-center px-4">
-        <h2 className="text-pink">ONE</h2>
+        <h2 className="text-orange">ONE</h2>
         <p>
           <strong>Stage</strong> in an exceptional venue offering enough space for{' '}
           <strong>networking</strong>and engaging in <strong>talks</strong> with people
@@ -30,7 +30,7 @@ const Info = () => (
         </p>
       </div>
       <div className="w-1/3 md:w-full text-center px-4">
-        <h2 className="text-pink">250+</h2>
+        <h2 className="text-orange">250+</h2>
         <p>
           <strong>Diverse attendees & speakers</strong> including <strong>leading experts</strong>{' '}
           from AWS Usergroup communities.

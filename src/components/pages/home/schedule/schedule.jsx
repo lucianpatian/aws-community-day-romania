@@ -1,8 +1,9 @@
 import React from 'react';
 
 const Schedule = () => (
-    <section className="safe-paddings container-md">
+    <section className="safe-paddings container-md text-center">
         <h1 id="schedule">Schedule</h1>
+        <p>Not available right now</p>
         <div className="flex flex-row md:flex-col gap-4">
             {/* <div
                 className="w-1/3 md:w-full bg-gray-12 rounded-md p-4 flex-col inline-block justify-center content-center">

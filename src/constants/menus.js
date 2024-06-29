@@ -4,21 +4,22 @@ const MENUS = {
   header: [
     { text: 'Call for Proposals', ...LINKS.cfp },
     { text: 'Tickets', ...LINKS.tickets },
+    { text: 'Speakers', ...LINKS.speakers },
     { text: 'Schedule', ...LINKS.schedule },
-    { text: 'Sponsors', ...LINKS.sponsors },
-    { text: 'Volunteer', ...LINKS.volunteer },
+    { text: 'FAQ', ...LINKS.faq },
+    { text: 'Contact', ...LINKS.contact },
   ],
   footer: [
     { text: 'Code of Conduct', ...LINKS.conduct },
     { text: 'Team', ...LINKS.team },
-    { text: 'Impressum & Data Privacy', ...LINKS.privacy },
   ],
   mobile: [
     { text: 'Call for Proposals', ...LINKS.cfp },
     { text: 'Tickets', ...LINKS.tickets },
+    { text: 'Speakers', ...LINKS.speakers },
     { text: 'Schedule', ...LINKS.schedule },
-    { text: 'Sponsors', ...LINKS.sponsors },
-    { text: 'Volunteer', ...LINKS.volunteer },
+    { text: 'FAQ', ...LINKS.faq },
+    { text: 'Contact', ...LINKS.contact },
   ],
 };
 

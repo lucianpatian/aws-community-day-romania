@@ -17,18 +17,25 @@ export default {
     id: `/#${getAnchor('Tickets')}`,
     homeTo: '/',
   },
+  speakers: {
+    to: `/#${getAnchor('Speakers')}`,
+    id: `/#${getAnchor('Speakers')}`,
+    homeTo: '/',
+  },
   schedule: {
-    to: `/#${getAnchor('schedule')}`,
-    id: `/#${getAnchor('schedule')}`,
+    to: `/#${getAnchor('Schedule')}`,
+    id: `/#${getAnchor('Schedule')}`,
     homeTo: '/',
   },
-  sponsors: {
-    to: `/#${getAnchor('Sponsors')}`,
-    id: `/#${getAnchor('Sponsors')}`,
+  faq: {
+    to: `/#${getAnchor('FAQ')}`,
+    id: `/#${getAnchor('FAQ')}`,
     homeTo: '/',
   },
-  volunteer: {
-    to: `/volunteer`,
+  contact: {
+    to: `/#${getAnchor('Contact')}`,
+    id: `/#${getAnchor('Contact')}`,
+    homeTo: '/',
   },
 
   // Footer
@@ -40,21 +47,21 @@ export default {
     target: '_blank',
   },
   conduct: {
-    to: 'https://events.linuxfoundation.org/about/code-of-conduct/',
+    to: '#',
     target: '_blank',
   },
 
   // Social-links
   linkedin: {
-    to: 'https://www.linkedin.com/company/kcdaustria/',
+    to: '#',
     target: '_blank',
   },
   googlemaps: {
-    to: 'https://maps.app.goo.gl/ow5DQBEXz6MJCyB97',
+    to: 'https://maps.app.goo.gl/tQtK4h1DwE6XiuwaA',
     target: '_blank',
   },
   youtube: {
-    to: 'https://www.youtube.com/channel/UCs8vJuX9OkkXObKb5VCkYfA',
+    to: '#',
     target: '_blank',
   },
 };

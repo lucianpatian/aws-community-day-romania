@@ -39,9 +39,12 @@ const Speakers = () => {
   };
 
   return (
-    <section className="safe-paddings container-md">
+    <section className="safe-paddings container-md text-center">
       <h1 id="speakers">Speakers</h1>
-      {getSpeakers()}
+      <p>Available soon. Meanwhile submit your proposals</p>
+      {/* 
+      getSpeakers()
+      */}
     </section>
   );
 };

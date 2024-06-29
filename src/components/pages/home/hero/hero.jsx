@@ -1,19 +1,16 @@
 import React from 'react';
 
-import illustration from './images/CommunityDay_Sitemerch_hexagon01.webp';
+import illustration from './images/CommunityDay_Sitemerch_hexagon01.png';
 import Button from '../../../shared/button';
+import LogoFirstEdition from './images/community-day-first-edition.png';
 
 const Hero = () => (
   <section className="safe-paddings overflow-hidden mt-12 mb-16">
     <div className="container w-full flex flex-row items-center md:flex-col">
       <div className="flex flex-col flex-grow flex-shrink w-1/2 md:w-full pr-[48px] md:pr-0">
-        <span className="w-fit rounded-full bg-pink px-4 py-2 text-sm font-bold leading-none text-white">
-          October 8th - 10th, 2024
-        </span>
-        <h1 className="my-0 text-start w-full text-8xl sm:text-7xl">AWS Community Day Romania</h1>
+      <img className="w-260" src={LogoFirstEdition} alt="LogoAWS" />
         <p className="mt-8 w-full">
-          On October 3rd the first AWS Community Day Romania will gather in,
-          Timisoara.
+          On October 3rd the first AWS Community Day Romania will gather in, Timisoara at Iulius Congress Hall.
           <br />
           <br />
           Join us for a one day technical event loaded with exciting talks and
@@ -27,6 +24,12 @@ const Hero = () => (
             document.getElementById('tickets').scrollIntoView({ behavior: 'smooth' });
           }}>
             Get your Tickets
+          </Button>
+          <Button onClick={(e) => {
+            e.preventDefault();
+            document.getElementById('call-for-proposals').scrollIntoView({ behavior: 'smooth' });
+          }}>
+            Be one of our speakers
           </Button>
         </div>
       </div>

@@ -3,13 +3,12 @@ import slugify from 'slugify';
 
 import LINKS from 'constants/links.js';
 import MENUS from 'constants/menus';
+import LogoAWS from 'icons/community-day-logo.png';
 import GoogleMaps from 'icons/google-maps-icon.inline.svg';
 import LinkedIn from 'icons/linkedin-logo.inline.svg';
-import Logo from 'icons/logo.inline.svg';
 import Youtube from 'icons/youtube.inline.svg';
 
 import Button from '../button';
-import Link from '../link';
 
 const socialMediaIcons = [
   { icon: LinkedIn, iconClassName: 'w-4', url: LINKS.linkedin.to, label: 'LinkedIn' },
@@ -38,9 +37,7 @@ const Footer = () => {
   return (
     <footer className="border-t border-t-gray-10 py-4">
       <div className="container flex items-center justify-between sm:flex-col sm:justify-around sm:gap-6">
-        <Link to="/" ariaLabel="Go to Homepage">
-          <Logo className="h-8 w-44" />
-        </Link>
+      <img className="w-44" src={LogoAWS} alt="LogoAWS" />
 
         <nav className="flex flex-row gap-4 sm:flex-col">
           {MENUS.footer.map(({ text, to, target }, index) => (
@@ -59,10 +56,10 @@ const Footer = () => {
         </nav>
         <div>
           <a
-            href="mailto:organizers@kcdaustria.at"
+            href="mailto:contact@aws-community.ro"
             className="text-center w-full text-sm hover:scale-105"
           >
-            organizers@kcdaustria.at
+            contact@aws-community.ro
           </a>
 
           <div className="flex flex-row gap-4 justify-center items-center">

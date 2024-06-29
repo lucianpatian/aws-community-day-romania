@@ -1,18 +1,18 @@
 export default {
   team: {
-    title: 'Team — KCD Austria',
-    description: 'Experience the power of community at the KCD Austria!',
+    title: 'Team — AWS Community Day Romania',
+    description: 'Experience the power of community at the AWS Community Day Romania!',
   },
   static: ({ title }) => ({
-    title: `${title} — KCD Austria`,
+    title: `${title} — AWS Community Day Romania`,
   }),
   volunteer: {
-    title: 'Volunteer — KCD Austria',
-    description: 'Volunteer at the KCD Austria and help make the event a success!',
+    title: 'Volunteer — AWS Community Day Romania',
+    description: 'Volunteer at the AWS Community Day Romania and help make the event a success!',
   },
 
   page404: {
-    title: 'Page Not Found — KCD Austria',
+    title: 'Page Not Found — AWS Community Day Romania',
     description: 'Sorry, we couldn’t find the page you’re looking for',
   },
 };
