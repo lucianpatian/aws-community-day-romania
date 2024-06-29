@@ -28,13 +28,13 @@
 
   a {
     @apply font-bold;
-    @apply hover:text-pink;
+    @apply hover:text-orange;
     @apply hover:scale-105;
   }
 
   .text-gradient {
     @apply bg-gradient-45;
-    @apply from-purple;
+    @apply from-white;
     @apply via-pink;
     @apply to-orange;
     @apply bg-clip-text;
@@ -65,7 +65,7 @@
     }
 
     a {
-      @apply text-purple;
+      @apply text-orange;
       @apply hover:text-pink;
     }
 

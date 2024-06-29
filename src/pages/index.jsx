@@ -9,6 +9,9 @@ import Sponsors from '../components/pages/home/sponsors';
 import Schedule from '../components/pages/home/schedule';
 import Cfp from '../components/pages/home/cfp';
 import Tickets from '../components/pages/home/tickets';
+import Speakers from 'components/pages/home/speakers';
+import Contact from 'components/pages/home/contact';
+import FAQ from 'components/pages/home/faq';
 
 const HomePage = () => (
   <Layout homepage>
@@ -16,8 +19,11 @@ const HomePage = () => (
     <Info />
     <Cfp />
     <Tickets />
+    <Speakers />
     <Schedule />
     <Sponsors />
+    <FAQ />
+    <Contact />
   </Layout>
 );
 

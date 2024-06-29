@@ -1,4 +1,5 @@
 import React from 'react';
+
 import FAQ from 'components/shared/faq';
 import Link from 'components/shared/link';
 
@@ -8,7 +9,7 @@ const Faq = () => (
     <div>
       <FAQ
         question="What are the requirements for volunteers?"
-        answer="To be a volunteer at KCD Austria, you must be at least 18 years old.
+        answer="To be a volunteer at AWS Community Day, you must be at least 18 years old.
       You should also have good English skills (at least B2 level) and be motivated. German skills are a plus.
       Depending on the area of application, you should also be able to remain calm in stressful situations and be good at interacting with people."
       />
@@ -23,7 +24,7 @@ const Faq = () => (
           </>}
       />
       <FAQ
-        question="Can I see anything from KCD Austria as a volunteer?"
+        question="Can I see anything from AWS Community Day as a volunteer?"
         answer="Of course! We will make the schedule flexible so that you can also attend conference talks.
         Depending on how many volunteers we have in the respective areas, the shifts will last around 6 hours.
         We will send you your exact schedule at least 2 weeks before the event."
@@ -42,15 +43,16 @@ const Faq = () => (
       <FAQ
         question="Where can I register as a volunteer?"
         answer={
-          <>Please fill out this{' '}
-            <Link
-              to="https://forms.gle/R9peGcYxQVEchjQ49"
-              target="_blank"
-              ariaLabel="form for volunteer registration"
-            >
-              form for volunteer registration
-            </Link>
-            . The registration deadline is July 31st.
+          <>Contact us at{' '}
+          <a
+            href="mailto:contact@aws-community.ro"
+            className="text-orange"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {' '}
+            contact@aws-community.ro{' '}
+          </a>
           </>
         }
       />
@@ -59,8 +61,8 @@ const Faq = () => (
         answer={
           <>
             Feel free to contact us directly by sending an email to{' '}
-            <Link to="mailto:organizers@kcdaustria.at" ariaLabel="organizers@kcdaustria.at">
-              organizers@kcdaustria.at
+            <Link to="mailto:contact@aws-community.ro" ariaLabel="contact@aws-community.ro">
+              contact@aws-community.ro
             </Link>
             .
           </>

@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'components/shared/link';
 
 import smallGroupPic from './images/small-group.jpg';
 import organizersPic from './images/organizers.jpg';
@@ -13,10 +12,10 @@ const Info = () => (
       className="float-left w-1/2 rounded-lg mr-6 sm:w-full sm:mb-6"
       src={organizersPic}
       loading="eager"
-      alt="A picture from KCD Austria 2023"
+      alt="A picture from AWS Community Day 2023"
     />
     <p>
-      KCD Austria is constantly growing and is not possible without dedicated volunteers. We are
+      AWS Community Day is constantly growing and is not possible without dedicated volunteers. We are
       therefore extremely grateful for anyone who wants to take a look behind the scenes and help
       out. As a thank you for your support, we also offer you some benefits.
       <br />
@@ -27,14 +26,16 @@ const Info = () => (
       <li>free drinks and food</li>
       <li>free parking ticket</li>
       <br />
-      If you are interested in volunteering, please fill out this{' '}
-      <Link
-        to="https://forms.gle/R9peGcYxQVEchjQ49"
+      If you are interested in volunteering, contact us at{' '}
+      <a
+        href="mailto:contact@aws-community.ro"
+        className="text-orange"
         target="_blank"
-        ariaLabel="form for volunteer registration"
+        rel="noreferrer"
       >
-        form for volunteer registration
-      </Link>
+        {' '}
+        contact@aws-community.ro{' '}
+      </a>
       . The registration deadline is July 31st. If you are unable to attend for any reason, please
       let us know as soon as possible so that we can find a replacement.
       <br />
@@ -47,19 +48,19 @@ const Info = () => (
         className="rounded-lg"
         src={photoPic}
         loading="eager"
-        alt="A picture from KCD Austria 2023"
+        alt="A picture from AWS Community Day 2023"
       />
       <img
         className="rounded-lg"
         src={smallGroupPic}
         loading="eager"
-        alt="A picture from KCD Austria 2023"
+        alt="A picture from AWS Community Day 2023"
       />
       <img
         className="rounded-lg"
         src={beerPic}
         loading="eager"
-        alt="A picture from KCD Austria 2023"
+        alt="A picture from AWS Community Day 2023"
       />
     </div>
   </section>

@@ -34,11 +34,11 @@ module.exports = {
       pink: '#E30282',
       green: '#0DD8B5',
       purple: '#531CB3',
-      orange: '#FFBC42',
+      orange: '#ff9900',
 
       blue: { 1: '#3333FF', 2: '#2929FF' },
       primary: {
-        1: '#262F59',
+        1: '#ffffff',
         2: 'rgba(38, 47, 89, 0.1)',
         3: 'rgba(38, 47, 89, 0.3)',
         4: 'rgba(38, 47, 89, 0.03)',

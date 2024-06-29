@@ -13,7 +13,7 @@ const styles = {
   },
   theme: {
     primary:
-      'bg-purple hover:bg-gradient-45 hover:from-purple hover:via-pink hover:to-orange text-white hover:text-white hover:scale-105 rounded-full',
+      'bg-orange hover:bg-gradient-45 hover:from-orange hover:via-pink hover:to-orange text-white hover:text-white hover:scale-105 rounded-full',
     link: 'text-primary-1',
   },
 };
