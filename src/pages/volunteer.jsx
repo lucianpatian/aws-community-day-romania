@@ -1,7 +1,7 @@
 import React from 'react';
 
+import VFaq from 'components/pages/volunteer/faq';
 import Info from 'components/pages/volunteer/info';
-import Faq from 'components/pages/volunteer/faq';
 import Layout from 'components/shared/layout';
 import SEO from 'components/shared/seo';
 import SEO_DATA from 'constants/seo-data';
@@ -9,7 +9,7 @@ import SEO_DATA from 'constants/seo-data';
 const VolunteerPage = () => (
   <Layout>
     <Info />
-    <Faq />
+    <VFaq />
   </Layout>
 );
 

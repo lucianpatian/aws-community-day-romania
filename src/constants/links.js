@@ -42,13 +42,15 @@ export default {
   team: {
     to: '/team',
   },
+  volunteer: {
+    to: '/volunteer',
+  },
   privacy: {
     to: '/imprint-and-data-privacy',
     target: '_blank',
   },
   conduct: {
-    to: '#',
-    target: '_blank',
+    to: '/code-of-conduct',
   },
 
   // Social-links

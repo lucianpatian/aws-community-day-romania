@@ -12,6 +12,7 @@ const MENUS = {
   footer: [
     { text: 'Code of Conduct', ...LINKS.conduct },
     { text: 'Team', ...LINKS.team },
+    { text: 'Volunteer', ...LINKS.volunteer },
   ],
   mobile: [
     { text: 'Call for Proposals', ...LINKS.cfp },
