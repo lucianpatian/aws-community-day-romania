@@ -6,14 +6,14 @@ import MENUS from 'constants/menus';
 import LogoAWS from 'icons/community-day-logo.png';
 import GoogleMaps from 'icons/google-maps-icon.inline.svg';
 import LinkedIn from 'icons/linkedin-logo.inline.svg';
-import Youtube from 'icons/youtube.inline.svg';
+// import Youtube from 'icons/youtube.inline.svg';
 
 import Button from '../button';
 
 const socialMediaIcons = [
   { icon: LinkedIn, iconClassName: 'w-4', url: LINKS.linkedin.to, label: 'LinkedIn' },
   { icon: GoogleMaps, iconClassName: 'w-4', url: LINKS.googlemaps.to, label: 'Google Maps' },
-  { icon: Youtube, iconClassName: 'w-4 pt-1', url: LINKS.youtube.to, label: 'YouTube' },
+  // { icon: Youtube, iconClassName: 'w-4 pt-1', url: LINKS.youtube.to, label: 'YouTube' },
 ];
 
 const Footer = () => {

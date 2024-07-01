@@ -4,7 +4,7 @@ const Cfp = () => (
   <section className="safe-paddings container-md text-center">
     <h1 id="call-for-proposals">Call for Proposals</h1>
     <p>
-      Our call for proposals is currently <strong>open</strong>.
+      Our call for proposals is currently <strong>open</strong> until 15th of August 2024.
       <br /><br />
     </p>
     <p>

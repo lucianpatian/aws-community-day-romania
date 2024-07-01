@@ -41,7 +41,7 @@ const Speakers = () => {
   return (
     <section className="safe-paddings container-md text-center">
       <h1 id="speakers">Speakers</h1>
-      <p>Available soon. Meanwhile submit your proposals</p>
+      <p>Will be available soon</p>
       {/* 
       getSpeakers()
       */}

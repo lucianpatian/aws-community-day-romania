@@ -7,6 +7,11 @@ export default {
   home: {
     to: '/',
   },
+  whyAttend: { 
+    to: `/#${getAnchor('Why Attend')}`, 
+    id: `/#${getAnchor('Why Attend')}`, 
+    homeTo: '/'
+   },
   cfp: {
     to: `/#${getAnchor('Call for Proposals')}`,
     id: `/#${getAnchor('Call for Proposals')}`,
@@ -55,15 +60,15 @@ export default {
 
   // Social-links
   linkedin: {
-    to: '#',
+    to: 'https://www.linkedin.com/company/103909731',
     target: '_blank',
   },
   googlemaps: {
     to: 'https://maps.app.goo.gl/tQtK4h1DwE6XiuwaA',
     target: '_blank',
   },
-  youtube: {
-    to: '#',
-    target: '_blank',
-  },
+  // youtube: {
+  //   to: '#',
+  //   target: '_blank',
+  // },
 };

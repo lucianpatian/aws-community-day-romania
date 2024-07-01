@@ -4,7 +4,7 @@ import Button from '../../../shared/button';
 const Tickets = () => (<section className="safe-paddings container-md text-center">
   <h1 id="tickets">Tickets</h1>
   <p>
-    Are not available yet
+  Will be available soon
   </p>
   {/* <h3>Conference Pass</h3>
   <p>
