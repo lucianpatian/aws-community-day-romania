@@ -4,10 +4,21 @@ const Cfp = () => (
   <section className="safe-paddings container-md text-center">
     <h1 id="call-for-proposals">Call for Proposals</h1>
     <p>
-      Our call for proposals is currently <strong>closed</strong>.
+      Our call for proposals is currently <strong>open</strong>.
       <br /><br />
-      We're planning to craft a conference program packed with insightful talks and workshops.
+    </p>
+    <p>
+    We’re excited to create a conference lineup filled with insightful and inspiring talks. Share your expertise and passion with our community by submitting your talk through this {' '}
+ 
+      <a 
+        href="https://forms.gle/4jfbaRSs92iui2Px5" 
+        target="_blank" 
+        rel="noopener noreferrer"
+      >
+        form
+      </a>.
     </p>
   </section>
 );
+
 export default Cfp;

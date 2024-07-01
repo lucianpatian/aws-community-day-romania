@@ -14,7 +14,7 @@ const Info = () => (
     <h1>What to expect?</h1>
     <div className="flex flex-row md:flex-col">
       <div className="w-1/3 md:w-full text-center px-4">
-        <h2 className="text-orange">15+</h2>
+        <h2 className="text-orange">10+</h2>
         <p>
           <strong>Technically competent talks & panels</strong> relevant to the AWS community
           and coming from end-users.

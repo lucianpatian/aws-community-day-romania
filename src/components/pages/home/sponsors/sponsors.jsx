@@ -2,7 +2,7 @@ import React from 'react';
 
 import Button from 'components/shared/button';
 
-import HaufeGroup from './logos/HG_Logo_Standard.jpg';
+import HaufeGroup from './logos/HGroup.svg';
 import AwsCommunityDays from './logos/AwsCommunityDays.png';
 // import Cncf from './logos/Cncf.png';
 // import KcdMunich from './logos/KcdMunich.svg';
@@ -25,7 +25,7 @@ import AwsCommunityDays from './logos/AwsCommunityDays.png';
 
 const sponsors = [
   {
-    title: 'Gold',
+    title: 'Premium',
     sponsors: [
       { url: 'https://www.haufegroup.com/', logo: HaufeGroup },
     ],
