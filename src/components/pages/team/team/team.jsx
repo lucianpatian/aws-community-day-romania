@@ -2,9 +2,9 @@ import React from 'react';
 
 import Person from '../../../shared/person';
 
-import RaulGeana from './images/raul_geana.jpeg';
-import MarilenaVelciov from './images/marilena_velciov.jpeg';
-import LucianPatian from './images/lucian_patian.jpeg';
+import RaulGeana from './images/raul_geana.jpg';
+import MarilenaVelciov from './images/marilena_velciov.jpg';
+import LucianPatian from './images/lucian_patian.jpg';
 
 
 const teamMembers = [
