@@ -7,7 +7,7 @@ module.exports = {
   siteMetadata: {
     siteTitle: 'Pixel Point Gatsby Tailwind Starter',
     siteDescription: 'Site Description',
-    siteImage: '/images/social-preview.png',
+    siteImage: '/images/favicon.png',
     siteLanguage: 'en',
     siteUrl: process.env.GATSBY_DEFAULT_SITE_URL || 'http://localhost:8000',
     authorName: 'Pixel Point',
