@@ -10,7 +10,14 @@ const Hero = () => (
       <div className="flex flex-col flex-grow flex-shrink w-1/2 md:w-full pr-[48px] md:pr-0">
       <img className="w-260" src={LogoFirstEdition} alt="LogoAWS" />
         <p className="mt-8 w-full">
-          On <strong>October 3rd</strong> the first AWS Community Day Romania will gather in Timisoara at Iulius Congress Hall.
+          On <strong>October 3rd</strong> the first AWS Community Day Romania will gather in Timisoara at  {' '}
+          <a 
+            href="https://maps.app.goo.gl/pRAArsxsin8L3hUp9" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            Iulius Congress Hall
+          </a>.
           <br />
           <br />
           Join us for a one day technical event loaded with exciting talks and

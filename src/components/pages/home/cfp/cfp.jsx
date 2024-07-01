@@ -8,15 +8,15 @@ const Cfp = () => (
       <br /><br />
     </p>
     <p>
-    We’re excited to create a conference lineup filled with insightful and inspiring talks. Share your expertise and passion with our community by submitting your talk through this {' '}
- 
+      We’re excited to create a conference lineup filled with insightful and inspiring talks. Share your expertise and passion with our community by submitting your talk through this {' '}
       <a 
         href="https://forms.gle/4jfbaRSs92iui2Px5" 
         target="_blank" 
         rel="noopener noreferrer"
+        className="text-orange"
       >
         form
-      </a>.
+      </a>
     </p>
   </section>
 );
