@@ -2,14 +2,14 @@ import React from 'react';
 
 const Info = () => (
   <section id="why-attend" className="safe-paddings container-md">
-    <p>
+    {/* <p>
       <strong>AWS Community Day Romania</strong> is the first AWS community conference in Romania.
       <br />
       <br />
-      The first edition is in <strong>Timisoara</strong> and we’re thrilled to unite the romanian
+      The first edition is in <strong>Timisoara</strong> and we’re thrilled to unite the Romanian
       community. Our goal is to offer a one day experience for professionals and experts with AWS 
       background to explore, connect and exchange their insights.
-    </p>
+    </p> */}
 
     <h1>Why attend and what to expect?</h1>
     <div className="flex flex-row md:flex-col">

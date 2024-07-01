@@ -17,10 +17,15 @@ const Faq = () => (
         answer="AWS Community Day is open to all interested AWS users, regardless of their level of expertise."
       />
       <FAQ
-        question="Is registration required for the event ?"
+        question="Is registration required for the event?"
         answer="Yes, registration is required to participate in the event. 
         Please register on the event website."
       />
+      <FAQ
+        question="What is the official language for the event?"
+        answer="We would like to inform all participants that the official language for the event is English.
+        All presentations, materials, and communications will be conducted in English."
+      />      
       <FAQ
         question="Where can I register as a volunteer?"
         answer={

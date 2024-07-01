@@ -21,8 +21,8 @@ const Hero = () => (
           <br />
           <br />
           Join us for a one day technical event loaded with exciting talks and
-          networking opportunities. AWS Community Day Romania is aimed at developers, platform people and other
-          IT professionals interested in cloud native technologies. This community event is
+          networking opportunities. The event is aimed at developers, platform people and other
+          IT professionals interested in cloud native technologies while being
           supported by all AWS Usergroups from Romania.
         </p>
         <div className="mt-10 flex container flex-row gap-4 w-full sm:flex-col p-0">
