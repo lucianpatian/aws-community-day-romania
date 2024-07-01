@@ -16,7 +16,7 @@ const VFaq = () => (
         question="What are the benefits of volunteering?"
         answer={
           <>Every volunteer who helps out will get
-            <li>Free entrance to both conference days</li>
+            <li>Free entrance to the conference </li>
             <li>Volunteer shirt</li>
             <li>Free drinks and food</li>
           </>}
