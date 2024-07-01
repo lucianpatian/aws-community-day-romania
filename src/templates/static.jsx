@@ -21,7 +21,7 @@ const StaticTemplate = ({
   },
   children,
 }) => (
-  <Layout headerClassnames="!bg-white">
+  <Layout headerClassnames="">
     <section className="container-sm">
       <article className="safe-paddings pt-24 pb-44">
         <h1 className="text-6xl font-bold text-primary-1">{title}</h1>

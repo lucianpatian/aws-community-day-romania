@@ -1,3 +1,3 @@
-import Faq from './faq';
+import VFaq from './faq';
 
-export default Faq;
+export default VFaq;

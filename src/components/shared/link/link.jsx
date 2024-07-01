@@ -49,7 +49,7 @@ Link.propTypes = {
   size: PropTypes.oneOf(Object.keys(styles.size)),
   theme: PropTypes.oneOf(Object.keys(styles.theme)),
   children: PropTypes.node.isRequired,
-  ariaLabel: PropTypes.string.isRequired,
+  ariaLabel: PropTypes.string,
   openInNewTab: PropTypes.bool,
 };
 
@@ -58,6 +58,7 @@ Link.defaultProps = {
   to: null,
   size: null,
   theme: null,
+  ariaLabel: '',
   openInNewTab: false
 };
 

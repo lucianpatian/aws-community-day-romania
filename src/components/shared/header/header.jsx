@@ -8,6 +8,7 @@ import LogoAWS from 'icons/community-day-logo.png';
 
 import Burger from '../burger';
 import Button from '../button';
+import Link from '../link';
 
 const Header = ({ isMobileMenuOpen, onBurgerClick, additionalClassName, homepage }) => {
   const getAnchor = (str) => slugify(str).toLocaleLowerCase();
@@ -23,11 +24,15 @@ const Header = ({ isMobileMenuOpen, onBurgerClick, additionalClassName, homepage
     <header
       className={clsx(
         'safe-paddings transition-200 z-10 transition-colors',
+        isMobileMenuOpen ? 'bg-black bg-opacity-100' : '',
         additionalClassName
       )}
     >
       <div className="container flex items-center justify-between py-5">
-      <img className="w-44" src={LogoAWS} alt="LogoAWS" />
+        <Link className="z-50" to="/" ariaLabel="Go to Homepage">
+          <img className="w-44" src={LogoAWS} alt="LogoAWS" />
+        </Link>
+      
         <nav>
           <ul className="flex md:hidden">
             {MENUS.header.map(({ text, to, homeTo }, index) => (

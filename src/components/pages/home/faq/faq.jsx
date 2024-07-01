@@ -1,7 +1,6 @@
 import React from 'react';
 
 import FAQ from 'components/shared/faq';
-import Link from 'components/shared/link';
 
 const Faq = () => (
   <section className="safe-paddings container-md">
@@ -27,9 +26,15 @@ const Faq = () => (
         answer={
           <>
             Feel free to contact us directly by sending an email to{' '}
-            <Link to="mailto:contact@aws-community.ro" ariaLabel="contact@aws-community.ro">
-              contact@aws-community.ro
-            </Link>
+            <a
+            href="mailto:contact@aws-community.ro"
+            className="text-orange"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {' '}
+            contact@aws-community.ro{' '}
+          </a>
             .
           </>
         }
@@ -39,9 +44,15 @@ const Faq = () => (
         answer={
           <>
             Feel free to contact us directly by sending an email to{' '}
-            <Link to="mailto:contact@aws-community.ro" ariaLabel="contact@aws-community.ro">
-              contact@aws-community.ro
-            </Link>
+            <a
+            href="mailto:contact@aws-community.ro"
+            className="text-orange"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {' '}
+            contact@aws-community.ro{' '}
+          </a>
             .
           </>
         }

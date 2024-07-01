@@ -1,6 +1,6 @@
-# KCD Austria Website
+# AWS Community Day Romania Website
 
-Website for the Kubernetes Community Days Austria available at [kcdaustria.at](https://kcdaustria.at).
+This is a fork from [KCDAustria repo](https://github.com/cloud-native-austria/kcd-austria-website). Thanks for your support!
 
 > Forked from [KCDMunich/website](https://github.com/KCDMunich/website) -> Thank you! :)
 
