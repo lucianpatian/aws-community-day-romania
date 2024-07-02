@@ -1,4 +1,5 @@
 import React from 'react';
+import {isMobile} from 'react-device-detect';
 
 import illustration from './images/CommunityDay_Sitemerch_hexagon01.png';
 import Button from '../../../shared/button';
@@ -40,12 +41,11 @@ const Hero = () => (
           </Button>
         </div>
       </div>
-      <img
-        className="flex-grow flex-shrink w-1/2 object-contain md:mt-12 md:w-3/4 md:max-w-[400px] pl-[48px] md:pl-0"
-        src={illustration}
-        loading="eager"
-        alt="Illustration"
-      />
+      {!isMobile && (
+        <div className="flex flex-grow flex-shrink w-1/2 object-contain md:mt-12 md:w-3/4 md:max-w-[400px] pl-[48px] md:pl-0">
+          <img src={illustration} loading="eager" alt="Illustration" />
+        </div>
+      )}
     </div>
   </section>
 );
