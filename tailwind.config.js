@@ -33,8 +33,8 @@ module.exports = {
       white: '#ffffff',
       pink: '#E30282',
       green: '#0DD8B5',
-      purple: '#531CB3',
-      orange: '#ff9900',
+      purple: '#493CE2',
+      orange: '#FF9900',
 
       blue: { 1: '#3333FF', 2: '#2929FF', 3: '#192532' },
       primary: {
