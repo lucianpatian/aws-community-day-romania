@@ -33,7 +33,7 @@ const Info = () => (
         <h2 className="text-orange">250+</h2>
         <p>
           <strong>Diverse attendees & speakers</strong> including <strong>leading experts</strong>{' '}
-          from AWS Usergroup communities. Expect interactive sessions, lively discussions and entertaining breaks.
+          from AWS User Group communities. Expect interactive sessions, lively discussions and entertaining breaks.
         </p>
       </div>
     </div>
