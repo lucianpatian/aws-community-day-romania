@@ -1,7 +1,14 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+
 import Person from '../../../shared/person';
 
+import RaulGeana from './images/raul_geana.jpg';
+import AlexandruBotici from './images/alexandru_botici.jpg';
+import RobertColca from './images/robert_colca.jpg';
+
 const Speakers = () => {
+/* This is the initial implementation used for integration with sessionize.com
+
   const [speakers, setSpeakers] = useState([]);
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(true);
@@ -37,14 +44,36 @@ const Speakers = () => {
       </div>
     );
   };
+  */
+
+  const speakers = [
+    {
+      fullName: 'Raul Geana',
+      tagLine: 'Managing Director @ Haufe Group & Community Leader AWS User Group Timisoara',
+      profilePicture: RaulGeana,
+    },
+    {
+      fullName: 'Alexandru Botici',
+      tagLine: 'Software Developer @ Tazz',
+      profilePicture: AlexandruBotici,
+    },
+    {
+      fullName: 'Robert Colca',
+      tagLine: 'Algorithms & ML Lead @ Tazz',
+      profilePicture: RobertColca,
+    }
+  ];
 
   return (
     <section className="safe-paddings container-md text-center">
       <h1 id="speakers">Speakers</h1>
-      <p>Will be available soon</p>
-      {/* 
-      getSpeakers()
-      */}
+      <p>Full list of speakers will be available soon.<br/>
+        Here are some names that already confirmed their presence.</p>
+      <div className="flex flex-row flex-wrap gap-10 justify-center pt-4">
+        {speakers.map(({ profilePicture, fullName, tagLine }, index) => (
+          <Person name={fullName} tagLine={tagLine} picture={profilePicture} key={index} />
+        ))}
+      </div>
     </section>
   );
 };
