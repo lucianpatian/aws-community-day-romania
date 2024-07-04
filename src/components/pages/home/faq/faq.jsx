@@ -9,7 +9,7 @@ const Faq = () => (
       <FAQ
         question="What is AWS Community Day?"
         answer="AWS Community Day is a one-day event organized by the AWS community for the community. 
-        It's an opportunity for AWS users to meet and learn from each other, 
+        It is an opportunity for AWS users to meet and learn from each other,
         share best practices, and listen to presentations from industry experts."
       />
       <FAQ
