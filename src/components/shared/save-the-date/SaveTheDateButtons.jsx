@@ -13,8 +13,7 @@ const SaveTheDateButton = () => {
   };
 
   useEffect(() => {
-    const generateIcsContent = () => {
-      return `
+    const icsContent = `
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Your Organization//NONSGML v1.0//EN
@@ -28,14 +27,13 @@ DESCRIPTION:${eventDetails.description}
 LOCATION:${eventDetails.location}
 END:VEVENT
 END:VCALENDAR
-      `.trim();
-    };
-
-    const icsContent = generateIcsContent();
+`.trim();
 
     // Ensure line length and CRLF compliance
     const formattedIcsContent = icsContent.split('\n')
-      .map(line => line.match(/.{1,75}/g).join('\r\n '))
+      .map(line => {
+        return line.match(/.{1,75}/g).join('\r\n ');
+      })
       .join('\r\n');
 
     console.log('Formatted ICS Content:', formattedIcsContent); // Debugging log
@@ -46,9 +44,14 @@ END:VCALENDAR
 
     // Clean up the URL object when the component unmounts
     return () => URL.revokeObjectURL(url);
-  }, []); // Empty dependency array ensures this effect runs only once
+  }, [eventDetails]);
 
   const googleCalendarUrl = `https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(eventDetails.title)}&dates=${eventDetails.startDate.replace(/-|:|\.\d\d\d/g, '').slice(0, 15)}Z/${eventDetails.endDate.replace(/-|:|\.\d\d\d/g, '').slice(0, 15)}Z&details=${encodeURIComponent(eventDetails.description)}&location=${encodeURIComponent(eventDetails.location)}&sf=true&output=xml`;
+
+  useEffect(() => {
+    console.log('Google Calendar URL:', googleCalendarUrl);
+    console.log('ICS URL:', icsUrl);
+  }, [googleCalendarUrl, icsUrl]);
 
   return (
     <div className="flex space-x-4"> {/* Tailwind utility classes for spacing */}
