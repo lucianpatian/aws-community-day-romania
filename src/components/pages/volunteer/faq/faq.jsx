@@ -4,7 +4,7 @@ import FAQ from 'components/shared/faq';
 
 const VFaq = () => (
   <section className="safe-paddings container-md">
-    <h3>Frequently Asked Questions</h3>
+    <h2>Frequently Asked Questions</h2>
     <div>
       <FAQ
         question="What are the requirements for volunteers?"
@@ -61,7 +61,8 @@ const VFaq = () => (
             >
               {' '}
               contact@aws-community.ro{' '}
-            </a>            
+            </a>
+            .
           </>
         }
       />

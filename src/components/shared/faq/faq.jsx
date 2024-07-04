@@ -9,13 +9,13 @@ const FAQ = ({ question, answer }) => {
   };
 
   return (
-    <section className="safe-paddings container-md mb-4">
-      <h4 className="text-start">
-        <button onClick={toggleExpand} className="text-left w-full">
+    <section className="safe-paddings container-md">
+      <h3 className="text-start">
+        <button onClick={toggleExpand}>
           {expanded ? '-' : '+'} {question}
         </button>
-      </h4>
-      {expanded && <p className="mt-2 text-base mb-4">{answer}</p>}
+      </h3>
+      {expanded && <p className="mt-2">{answer}</p>}
     </section>
   );
 };

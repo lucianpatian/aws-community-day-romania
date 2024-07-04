@@ -23,7 +23,8 @@ const Faq = () => (
       />
       <FAQ
         question="What is the official language for the event?"
-        answer="The official language for the event is English. All presentations, materials and communications will be conducted in English."
+        answer="We would like to inform all participants that the official language for the event is English.
+        All presentations, materials and communications will be conducted in English."
       />      
       <FAQ
         question="Where can I register as a volunteer?"
