@@ -36,7 +36,7 @@ module.exports = {
       purple: '#531CB3',
       orange: '#ff9900',
 
-      blue: { 1: '#3333FF', 2: '#2929FF', 3: '#192532' },
+      blue: { 1: '#3333FF', 2: '#2929FF' },
       primary: {
         1: '#ffffff',
         2: 'rgba(38, 47, 89, 0.1)',
