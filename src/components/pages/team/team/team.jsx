@@ -5,7 +5,6 @@ import Person from '../../../shared/person';
 import RaulGeana from './images/raul_geana.jpg';
 import MarilenaVelciov from './images/marilena_velciov.jpg';
 import LucianPatian from './images/lucian_patian.jpg';
-import AnaStaicu from './images/ana_staicu.jpg';
 
 
 const teamMembers = [
@@ -24,11 +23,6 @@ const teamMembers = [
     tagLine: 'Cloud Solutions Architect @ Haufe Group & Community Leader AWS User Group Timisoara',
     picture: LucianPatian,
   },
-  {
-    name: 'Ana Staicu',
-    tagLine: 'UX/UI Designer @ Haufe Group',
-    picture: AnaStaicu,
-  },  
 ];
 
 const Team = () => (
