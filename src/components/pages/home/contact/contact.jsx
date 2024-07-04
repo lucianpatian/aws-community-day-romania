@@ -1,5 +1,4 @@
 import React from 'react';
-import SaveTheDateButton from '../../../shared/save-the-date';
 
 const Contact = () => (
   <section className="safe-paddings container-md text-center">
@@ -17,7 +16,7 @@ const Contact = () => (
       </a>
     </p>
     <div className="mt-6 mb-12 flex flex-row justify-center gap-4 sm:flex-col">
-      <SaveTheDateButton />
+      {/*  */}
     </div>
   </section>
 );
