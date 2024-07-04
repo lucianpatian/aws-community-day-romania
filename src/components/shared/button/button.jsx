@@ -12,12 +12,13 @@ const styles = {
     xs: 'text-sm',
   },
   theme: {
-    primary: 'bg-orange hover:bg-gradient-45 hover:from-orange hover:via-pink hover:to-orange text-white hover:text-white hover:scale-105 rounded-full',
+    primary:
+      'bg-orange hover:bg-gradient-45 hover:from-orange hover:via-pink hover:to-orange text-white hover:text-white hover:scale-105 rounded-full',
     link: 'text-primary-1',
   },
 };
 
-const Button = ({ className: additionalClassName, to, href, size, theme, children, ...otherProps }) => {
+const Button = ({ className: additionalClassName, to, size, theme, children, ...otherProps }) => {
   const className = clsx(
     styles.base,
     styles.size[size ?? 'md'],
@@ -25,16 +26,10 @@ const Button = ({ className: additionalClassName, to, href, size, theme, childre
     additionalClassName
   );
 
-  let Tag = 'button';
-
-  if (to) {
-    Tag = Link;
-  } else if (href) {
-    Tag = 'a';
-  }
+  const Tag = to ? Link : 'button';
 
   return (
-    <Tag className={className} to={to} href={href} {...otherProps}>
+    <Tag className={className} to={to} {...otherProps}>
       {children}
     </Tag>
   );
@@ -43,7 +38,6 @@ const Button = ({ className: additionalClassName, to, href, size, theme, childre
 Button.propTypes = {
   className: PropTypes.string,
   to: PropTypes.string,
-  href: PropTypes.string,
   size: PropTypes.oneOf(Object.keys(styles.size)),
   theme: PropTypes.oneOf(Object.keys(styles.theme)),
   children: PropTypes.node.isRequired,
@@ -52,7 +46,6 @@ Button.propTypes = {
 Button.defaultProps = {
   className: null,
   to: null,
-  href: null,
   size: null,
   theme: null,
 };
