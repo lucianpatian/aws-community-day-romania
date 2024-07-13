@@ -25,7 +25,7 @@ import AwsCommunityDays from './logos/AwsCommunityDays.png';
 
 const sponsors = [
   {
-    title: 'Premium',
+    title: 'Diamond',
     sponsors: [
       { url: 'https://www.haufegroup.com/', logo: HaufeGroup },
     ],
