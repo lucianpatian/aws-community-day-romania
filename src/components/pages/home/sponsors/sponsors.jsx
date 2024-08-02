@@ -50,7 +50,7 @@ const sponsors = [
 
 const Sponsors = () => (
   <section className="safe-paddings container-md text-center">
-    <h1 id="sponsors">Sponsors</h1>
+    <h1 id="sponsors">Partners</h1>
 
     <p>
       Join us in making AWS Community Day Romania a memorable and impactful event for all attendees. To explore

@@ -5,6 +5,7 @@ import Person from '../../../shared/person';
 import RaulGeana from './images/raul_geana.jpg';
 import AlexandruBotici from './images/alexandru_botici.jpg';
 import RobertColca from './images/robert_colca.jpg';
+import AntonBabenko from './images/anton_babenko.jpg';
 
 const Speakers = () => {
 /* This is the initial implementation used for integration with sessionize.com
@@ -61,6 +62,11 @@ const Speakers = () => {
       fullName: 'Robert Colca',
       tagLine: 'Algorithms & ML Lead @ Tazz',
       profilePicture: RobertColca,
+    },
+    {
+      fullName: 'Anton Babenko',
+      tagLine: 'AWS Community Hero / Terraform influencer',
+      profilePicture: AntonBabenko,
     }
   ];
 
