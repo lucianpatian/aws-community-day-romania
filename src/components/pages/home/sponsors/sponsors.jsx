@@ -54,7 +54,7 @@ const Sponsors = () => (
 
     <p>
       Join us in making AWS Community Day Romania a memorable and impactful event for all attendees. To explore
-      sponsorship opportunities, please don't hesitate to get in touch with us today. Your support
+      partnership opportunities, please don't hesitate to get in touch with us today. Your support
       will help us create an unforgettable experience for the community while enhancing your brand's
       visibility. <br />Contact us at{' '}
       <a
